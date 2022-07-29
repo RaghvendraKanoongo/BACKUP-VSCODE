@@ -1,0 +1,714 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TotalNoOfDivisiors",
+            "request": "launch",
+            "mainClass": "Prime.TotalNoOfDivisiors",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rotate90",
+            "request": "launch",
+            "mainClass": "Rotate90",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile",
+            "request": "launch",
+            "mainClass": "Lol.tempCodeRunnerFile",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lol1",
+            "request": "launch",
+            "mainClass": "Lol.Lol1",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "Tree.LevelOrderTraversal",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile",
+            "request": "launch",
+            "mainClass": "tempCodeRunnerFile",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubMatrixSum",
+            "request": "launch",
+            "mainClass": "Adv_Arrays.SubMatrixSum",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubMatrixSum",
+            "request": "launch",
+            "mainClass": "Adv_Arrays.MaxSubMatrixSum",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lol",
+            "request": "launch",
+            "mainClass": "Lol.Lol",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstMissingPositiveInteger",
+            "request": "launch",
+            "mainClass": "Arrays1.FirstMissingPositiveInteger",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lol",
+            "request": "launch",
+            "mainClass": "Lol",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfSubArrays",
+            "request": "launch",
+            "mainClass": "Problem_Solving_6.SumOfSubArrays",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateRows",
+            "request": "launch",
+            "mainClass": "vs_code.Problem_Solving_6.DuplicateRows",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArrayOr",
+            "request": "launch",
+            "mainClass": "Problem_Solving_6.SubArrayOr",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch XorQueries",
+            "request": "launch",
+            "mainClass": "Problem_Solving_6.XorQueries",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile",
+            "request": "launch",
+            "mainClass": "Problem_Solving_3.tempCodeRunnerFile",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch EquilibriumIndex",
+            "request": "launch",
+            "mainClass": "Problem_Solving_2.EquilibriumIndex",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Random.Main",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch GoodPair",
+            "request": "launch",
+            "mainClass": "GoodPair",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Josephus",
+            "request": "launch",
+            "mainClass": "Josephus",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AmazingSubstring",
+            "request": "launch",
+            "mainClass": "AmazingSubstring",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arithmetic",
+            "request": "launch",
+            "mainClass": "Arithmetic",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChangeCharacter",
+            "request": "launch",
+            "mainClass": "ChangeCharacter",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChangeDateFormat",
+            "request": "launch",
+            "mainClass": "ChangeDateFormat",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClosestPalindrome",
+            "request": "launch",
+            "mainClass": "ClosestPalindrome",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorfulNumber",
+            "request": "launch",
+            "mainClass": "ColorfulNumber",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommonElement",
+            "request": "launch",
+            "mainClass": "CommonElement",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountOccurrences",
+            "request": "launch",
+            "mainClass": "CountOccurrences",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstNonRepeatingElement",
+            "request": "launch",
+            "mainClass": "FirstNonRepeatingElement",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntersactionArrayElements",
+            "request": "launch",
+            "mainClass": "IntersactionArrayElements",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsDictionary",
+            "request": "launch",
+            "mainClass": "IsDictionary",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sprac",
+            "request": "launch",
+            "mainClass": "JavaClass.Sprac",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch owe",
+            "request": "launch",
+            "mainClass": "JavaClass.owe",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthSmallestElement",
+            "request": "launch",
+            "mainClass": "KthSmallestElement",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Absolute_List_Sort",
+            "request": "launch",
+            "mainClass": "LL.Absolute_List_Sort",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestNumber",
+            "request": "launch",
+            "mainClass": "LargestNumber",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LexicographicallyLargest",
+            "request": "launch",
+            "mainClass": "LexicographicallyLargest",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lol",
+            "request": "launch",
+            "mainClass": "Lol",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefix",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mausami",
+            "request": "launch",
+            "mainClass": "Mausami",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumConsicutive1WithSingleSwap",
+            "request": "launch",
+            "mainClass": "MaximumConsicutive1WithSingleSwap",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NobleInteger",
+            "request": "launch",
+            "mainClass": "NobleInteger",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Editor",
+            "request": "launch",
+            "mainClass": "OLD.Editor",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Editor(1)",
+            "request": "launch",
+            "mainClass": "OLD.Java.Editor",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch chick2",
+            "request": "launch",
+            "mainClass": "OLD.Java.ForCheck.chick2",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch hola",
+            "request": "launch",
+            "mainClass": "OLD.Java.ForCheck.hola",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch HW",
+            "request": "launch",
+            "mainClass": "OLD.Java.HW",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogIn_page",
+            "request": "launch",
+            "mainClass": "OLD.Java.LogIn_page",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch chick1",
+            "request": "launch",
+            "mainClass": "OLD.Java.chick1",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Registraiton_Form",
+            "request": "launch",
+            "mainClass": "OLD.Java.com.javaguides.javaswing.reg.Registraiton_Form",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch check",
+            "request": "launch",
+            "mainClass": "OLD.Java.com.javaguides.javaswing.reg.check",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile",
+            "request": "launch",
+            "mainClass": "OLD.Java.com.javaguides.javaswing.reg.tempCodeRunnerFile",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch hola(1)",
+            "request": "launch",
+            "mainClass": "OLD.Java.hola",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch one",
+            "request": "launch",
+            "mainClass": "OLD.Java.one",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch prank",
+            "request": "launch",
+            "mainClass": "OLD.Java.prank",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewClass",
+            "request": "launch",
+            "mainClass": "OLD.NewClass",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NoteDemo",
+            "request": "launch",
+            "mainClass": "OLD.NoteDemo",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Notepad",
+            "request": "launch",
+            "mainClass": "OLD.Notepad",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "OLD.calculator",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch gNote",
+            "request": "launch",
+            "mainClass": "OLD.gNote",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch OppositeDigonal",
+            "request": "launch",
+            "mainClass": "OppositeDigonal",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PairSumK",
+            "request": "launch",
+            "mainClass": "PairSumK",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfactCards",
+            "request": "launch",
+            "mainClass": "PerfactCards",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsOfAInB",
+            "request": "launch",
+            "mainClass": "PermutationsOfAInB",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeggarsOutsideTemple",
+            "request": "launch",
+            "mainClass": "Problem_Solving_1.BeggarsOutsideTemple",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColumnSum",
+            "request": "launch",
+            "mainClass": "Problem_Solving_2.ColumnSum",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubarrayWithLeastAverage",
+            "request": "launch",
+            "mainClass": "Problem_Solving_2.SubarrayWithLeastAverage",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch OptimalPartitioning",
+            "request": "launch",
+            "mainClass": "Problem_Solving_3.OptimalPartitioning",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortTheUnsortedArray",
+            "request": "launch",
+            "mainClass": "Problem_Solving_3.SortTheUnsortedArray",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LittlePonnyAndMaximumElement",
+            "request": "launch",
+            "mainClass": "Random.LittlePonnyAndMaximumElement",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrom",
+            "request": "launch",
+            "mainClass": "Recursion.Palindrom",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfNNaturalNumbers",
+            "request": "launch",
+            "mainClass": "Recursion.SumOfNNaturalNumbers",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseTheString",
+            "request": "launch",
+            "mainClass": "ReverseTheString",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rotate90",
+            "request": "launch",
+            "mainClass": "Rotate90",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateString",
+            "request": "launch",
+            "mainClass": "RotateString",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shift",
+            "request": "launch",
+            "mainClass": "Shift",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SmallestSubArray",
+            "request": "launch",
+            "mainClass": "SmallestSubArray",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortByColor",
+            "request": "launch",
+            "mainClass": "SortByColor",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedRowColumn",
+            "request": "launch",
+            "mainClass": "SortedRowColumn",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch BucketSort",
+            "request": "launch",
+            "mainClass": "SortingAlgos.BucketSort",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Spiral",
+            "request": "launch",
+            "mainClass": "Spiral",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringOperations",
+            "request": "launch",
+            "mainClass": "StringOperations",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArrayWith0Sum",
+            "request": "launch",
+            "mainClass": "SubArrayWith0Sum",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubString",
+            "request": "launch",
+            "mainClass": "SubString",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubarrayWithGivenSum",
+            "request": "launch",
+            "mainClass": "SubarrayWithGivenSum",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sudoku",
+            "request": "launch",
+            "mainClass": "Sudoku",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfSetBits",
+            "request": "launch",
+            "mainClass": "SumOfSetBits",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ToLower",
+            "request": "launch",
+            "mainClass": "ToLower",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountOccurrences(1)",
+            "request": "launch",
+            "mainClass": "ToughAsHell.CountOccurrences",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoEqualPairs",
+            "request": "launch",
+            "mainClass": "TwoEqualPairs",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch WorstQuestionEver",
+            "request": "launch",
+            "mainClass": "WorstQuestionEver",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch XOR",
+            "request": "launch",
+            "mainClass": "XOR",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch basicHash",
+            "request": "launch",
+            "mainClass": "basicHash",
+            "projectName": "vs code_9e7785b"
+        },
+        {
+            "type": "java",
+            "name": "Launch tempCodeRunnerFile(1)",
+            "request": "launch",
+            "mainClass": "tempCodeRunnerFile",
+            "projectName": "vs code_9e7785b"
+        }
+    ]
+}

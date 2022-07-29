@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "STRING MANIPULATION",
+        "Practice",
+        "Intro To Sorting",
+        "Hash",
+        "Array",
+        ""
+    ],
+    "python.formatting.provider": "black"
+}
