@@ -6,7 +6,9 @@ public class Find2UniqueElements {
 
     }
     static void solve(int[] arr){
-        
+        for (int i = ; i < arr.length; i++) {
+            
+        }
     }
     
 }
