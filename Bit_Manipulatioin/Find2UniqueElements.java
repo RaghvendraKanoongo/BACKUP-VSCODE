@@ -2,8 +2,11 @@
 
 public class Find2UniqueElements {
     public static void main(String[] args) {
-        System.out.println("babaji");
-        System.out.println("babaji");
+        int[] arr = {1, 2, 4, 3, 3, 2, 2, 3, 1, 1};
+
+    }
+    static void solve(int[] arr){
+        
     }
     
 }
