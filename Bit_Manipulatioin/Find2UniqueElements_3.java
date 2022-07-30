@@ -2,7 +2,7 @@
 
 public class Find2UniqueElements_3 {
 
-    // here 
+    // here all the elemnts are repating twice but two elements are not repeating twice find them both 
     public static void main(String[] args) {
         System.out.println("babaji");
         int[] arr = {1,2,3,4,6,2,1,3,4,5};
