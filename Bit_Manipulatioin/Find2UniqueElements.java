@@ -16,11 +16,14 @@ public class Find2UniqueElements {
             for (int j = 0; j < arr.length; j++) {
                 int temp = arr[j];
 
-                if(((temp>>i)&1) == 1)
+                if(((temp>>i)&1) == 1){
                     count++;
                 }
             }
             
+            if(count%3 == 1){
+                
+            }
             
         }
     }
