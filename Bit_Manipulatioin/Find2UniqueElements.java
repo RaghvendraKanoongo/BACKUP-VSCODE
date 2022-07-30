@@ -12,6 +12,7 @@ public class Find2UniqueElements {
     static void solve(int[] arr){
         for (int i = 0; i < 31; i++) {
             int count = 0;
+            
             for (int j = 0; j < arr.length; j++) {
                 int temp = arr[j];
 
@@ -19,6 +20,8 @@ public class Find2UniqueElements {
                     count++;
                 }
             }
+            
+            
         }
     }
     
