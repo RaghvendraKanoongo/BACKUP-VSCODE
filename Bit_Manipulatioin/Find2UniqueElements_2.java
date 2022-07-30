@@ -1,6 +1,9 @@
 // package Bit_Manipulatioin;
 
 public class Find2UniqueElements_2 {
+
+    // here all the elements are repeating thrice except one element
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 4, 3, 3, 2, 2, 3, 1, 1};
         solve(arr);
