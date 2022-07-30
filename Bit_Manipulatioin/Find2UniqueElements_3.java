@@ -7,7 +7,7 @@ public class Find2UniqueElements_3 {
         System.out.println("babaji");
         int[] arr = {1,2,3,4,6,2,1,3,4,5};
         System.out.println(5>>0&1);
-        // solve(arr);
+        solve(arr);
     }
     static void solve(int[] arr){
         int xor = 0, xor1 = 0, xor2 = 0;
@@ -18,8 +18,13 @@ public class Find2UniqueElements_3 {
         System.out.println(xor);
         int setBit = 0;
         for (int i = 0; i < 31; i++) {
-            if(xor>>i))
-        }
+            if(((xor>>i)&1) == 1){
+                setBit = i;
+                break;
+            }
+        
+        System.out.println(setBit);
+
         for (int i = 0; i < 31; i++) {
 
             for (int j = 0; j < arr.length; j++) {
