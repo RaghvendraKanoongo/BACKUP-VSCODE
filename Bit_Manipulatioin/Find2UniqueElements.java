@@ -24,7 +24,7 @@ public class Find2UniqueElements {
             }
 
             if(count%3 == 1){
-                ans = ans;
+                ans = ans
             }
             
         }
