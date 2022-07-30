@@ -16,7 +16,6 @@ public class Find2UniqueElements_2 {
             
             for (int j = 0; j < arr.length; j++) {
                 int temp = arr[j];
-
                 if(((temp>>i)&1) == 1){
                     count++;
                 }
