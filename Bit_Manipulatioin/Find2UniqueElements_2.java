@@ -21,7 +21,7 @@ public class Find2UniqueElements_2 {
                     count++;
                 }
             }
-
+            
             if(count%3 == 1){
                 ans = ans|1<<i;
             }
