@@ -27,7 +27,11 @@ public class Find2UniqueElements_3 {
 
         for (int i = 0; i < arr.length; i++) {
 
-            
+            if(((arr[j]<<setBit)&1) == 1){
+                xor1 ^= arr[i];
+            }
+            else
+                xor2 ^= arr[i];
         }
     }
     
