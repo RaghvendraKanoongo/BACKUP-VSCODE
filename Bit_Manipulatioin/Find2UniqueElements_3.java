@@ -5,7 +5,7 @@ public class Find2UniqueElements_3 {
     // here all the elemnts are repating twice but two elements are not repeating twice find them both 
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {1,2,3,4,6,2,1,3,4,5};
+        int[] arr = {1,2,3,4,7,2,1,3,4,5};
         System.out.println(5>>0&1);
         solve(arr);
     }
@@ -27,12 +27,14 @@ public class Find2UniqueElements_3 {
 
         for (int i = 0; i < arr.length; i++) {
 
-            if(((arr[j]<<setBit)&1) == 1){
+            if(((arr[i]>>setBit)&1) == 1){
                 xor1 ^= arr[i];
             }
             else
                 xor2 ^= arr[i];
         }
+        System.out.println(xor1);
+        System.out.println(xor2);
     }
     
     
