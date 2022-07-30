@@ -4,7 +4,8 @@ public class Find2UniqueElements {
     public static void main(String[] args) {
         int[] arr = {1, 2, 4, 3, 3, 2, 2, 3, 1, 1};
         int temp = 7;
-        System.out.println(temp>>2);
+        int i = 2;
+        System.out.println(temp>>i);
         System.out.println(temp);
 
     }
@@ -12,9 +13,9 @@ public class Find2UniqueElements {
         for (int i = 0; i < 31; i++) {
             int count = 0;
             for (int j = 0; j < arr.length; j++) {
-                int temp = att[j];
-                
-                if((arr[j]>>i) &1){
+                int temp = arr[j];
+
+                if(((temp>>i)&1) == 1)
                     count++;
                 }
             }
