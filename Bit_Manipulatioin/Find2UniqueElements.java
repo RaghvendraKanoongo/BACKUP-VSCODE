@@ -3,7 +3,7 @@
 public class Find2UniqueElements {
     public static void main(String[] args) {
         int[] arr = {1, 2, 4, 3, 3, 2, 2, 3, 1, 1};
-        int temp = 0;
+        int temp = 1;
         int i = 1;
         temp = temp<<i;
         System.out.println(temp<<i);
