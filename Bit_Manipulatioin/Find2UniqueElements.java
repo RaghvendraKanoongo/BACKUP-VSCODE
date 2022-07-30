@@ -3,13 +3,15 @@
 public class Find2UniqueElements {
     public static void main(String[] args) {
         int[] arr = {1, 2, 4, 3, 3, 2, 2, 3, 1, 1};
-        int temp = 7;
-        int i = 2;
-        System.out.println(temp>>i);
+        int temp = 0;
+        int i = 1;
+        temp = temp<<i;
+        System.out.println(temp<<i);
         System.out.println(temp);
 
     }
     static void solve(int[] arr){
+        int ans = 0;
         for (int i = 0; i < 31; i++) {
             int count = 0;
             
@@ -20,9 +22,9 @@ public class Find2UniqueElements {
                     count++;
                 }
             }
-            
+
             if(count%3 == 1){
-                
+                ans = ans;
             }
             
         }
