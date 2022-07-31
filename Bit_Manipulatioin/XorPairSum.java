@@ -1,7 +1,7 @@
-package Bit_Manipulatioin;
+// package Bit_Manipulatioin;
 
 public class XorPairSum {
     public static void main(String[] args) {
-        System.out.println("");
+        System.out.println("babaji");
     }
 }
