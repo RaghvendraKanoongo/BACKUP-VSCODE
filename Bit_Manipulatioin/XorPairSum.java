@@ -13,9 +13,9 @@ public class XorPairSum {
     static String solve(String s){
 
         if(s.length() == 1){
-            return ""+ s.charAt(0);
+            return "" ;
         }
-        return solve(s.substring(1));
+        return solve(""+solve(s.substring(1))+s.charAt(1));
 
     }
 }
