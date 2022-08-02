@@ -2,11 +2,18 @@
 
 public class XorPairSum {
     public static void main(String[] args) {
-        System.out.println("babaji");
-        String s = "Rama";
-        String s1 = ""+s.charAt(1);
-        System.out.println(s1);
-        String s2 = s1.substring(1);
-        System.out.println(s2);
+        // Scanner sc = new Scanner(System.in);
+        // String s = sc.nextLine();
+        String s = "Raghav";
+        int sLen = s.length();
+        System.out.println(solve(s));
+    }
+    static String solve(String s, ){
+
+        if(s.length() == 1){
+            return ""+ s.charAt(0);
+        }
+        return solve(s.substring(1));
+
     }
 }
