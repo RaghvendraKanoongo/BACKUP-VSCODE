@@ -1,4 +1,4 @@
-// package Bit_Manipulatioin;
+package Bit_Manipulatioin;
 
 public class XorPairSum {
 
@@ -15,7 +15,7 @@ public class XorPairSum {
         if(s.length() == 1){
             return "" ;
         }
-        return solve(""+solve(s.substring(1))+s.charAt(1));
+        return solve(""+solve(s.substring(1))+s.charAt(0));
 
     }
 }
