@@ -6,7 +6,7 @@ public class XorPairSum {
         // Scanner sc = new Scanner(System.in);
         // String s = sc.nextLine();
         String s = "Raghav";
-        int sLen = s.length();
+        // int sLen = s.length();
         System.out.println(solve(s));
     }
 
