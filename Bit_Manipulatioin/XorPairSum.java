@@ -13,7 +13,7 @@ public class XorPairSum {
     static String solve(String s){
 
         if(s.length() == 1){
-            return "" ;
+            return "";
         }
         System.out.println("ji");
         return solve(""+solve(s.substring(1))+s.charAt(0));
