@@ -12,6 +12,5 @@ public class XorPairSum {
             return "";
         }
         return solve(""+solve(s.substring(1))+s.charAt(0));
-
     }
 }
