@@ -3,7 +3,7 @@
 public class XorPairSum {
 
     public static void main(String[] args) {
-        String s = "a";
+        String s = "civic";
         System.out.println(solve(s));
     }
 
