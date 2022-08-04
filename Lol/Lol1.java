@@ -9,8 +9,7 @@ public class Lol1 {
 
 
 
-    private static double getMaxValue(int[] wt, int[] val,
-									int capacity)
+    private static double getMaxValue(int[] wt, int[] val, int capacity)
 	{
 		ItemValue[] iVal = new ItemValue[wt.length];
 
@@ -150,6 +149,7 @@ public class Lol1 {
     //     }
     //     return "YES";
     // }
+
 
     // public static void main(String[] args) {
 
