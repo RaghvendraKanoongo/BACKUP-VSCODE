@@ -8,6 +8,8 @@ public class chick1 {
         
         A a = new B();
         a.print();
+        YZ yz = new YZ();
+        yz.hola()
     }
 }
 abstract class A{
@@ -24,4 +26,18 @@ class C extends B{
 
 }
 
-interface A
+interface Z{
+    static void  hola(){
+        System.out.println("in Z");
+    }
+}
+
+interface Y{
+    static void  hola(){
+        System.out.println("in Y");
+    }
+}
+
+class YZ implements Z,Y{
+
+}
