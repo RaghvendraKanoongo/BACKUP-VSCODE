@@ -33,7 +33,7 @@ interface Z{
 }
 
 interface Y{
-    default void  hola(){
+    static void  hola(){
         System.out.println("in Y");
     }
 }
