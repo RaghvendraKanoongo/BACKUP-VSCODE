@@ -6,18 +6,18 @@ import java.util.ArrayList;
 public class chick1 {
     public static void main(String[] args) {
         
-        
+        A a = new B();
+        a.print();
     }
 }
 class A{
-    void print(){
-        System.out.println("inside A");
-    }
+    
 }
 class B extends A{
     
     void print() {
-        super.print();
-        
+         super.print();
+        System.out.println("inside B");
     }
+
 }
