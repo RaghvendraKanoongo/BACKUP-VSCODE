@@ -1,4 +1,3 @@
-void print() {
-        
-    //     System.out.println("inside B");
-    // }
+ default void hola(){
+        System.out.println("in Z");
+    }

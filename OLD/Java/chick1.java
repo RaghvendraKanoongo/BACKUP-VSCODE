@@ -27,13 +27,13 @@ class C extends B{
 }
 
 interface Z{
-    static void  hola(){
+    default void hola(){
         System.out.println("in Z");
     }
 }
 
 interface Y{
-    static void  hola(){
+    default void  hola(){
         System.out.println("in Y");
     }
 }
