@@ -47,5 +47,8 @@ class YZ implements Z,Y{
 enum Level{
     HIGH,
     MEDIUM,
-    LOW
+    LOW;
+}
+enum Numbers{
+    h,q;
 }
