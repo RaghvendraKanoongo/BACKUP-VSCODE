@@ -6,11 +6,11 @@
 public class chick1 {
     public static void main(String[] args) {
         
-        C a = new C();
+        A a = new B();
         a.print();
     }
 }
-class A{
+abstract class A{
     void print(){
         System.out.println("inside A");
     }
