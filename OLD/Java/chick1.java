@@ -9,7 +9,7 @@ public class chick1 {
         A a = new B();
         a.print();
         YZ yz = new YZ();
-        yz.hola()
+        yz.hola();
     }
 }
 abstract class A{
@@ -39,5 +39,5 @@ interface Y{
 }
 
 class YZ implements Z,Y{
-
+    
 }
