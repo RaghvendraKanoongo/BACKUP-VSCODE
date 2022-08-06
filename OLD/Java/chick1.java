@@ -7,7 +7,7 @@ public class chick1 {
     public static void main(String[] args) {
         
         B a = new B();
-        A b = 
+        A b = (B)a;
         YZ yz = new YZ();
         yz.hola();
         System.out.println(yz.a);   
