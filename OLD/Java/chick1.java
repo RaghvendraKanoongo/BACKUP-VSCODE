@@ -10,6 +10,7 @@ public class chick1 {
         a.print();
         YZ yz = new YZ();
         yz.hola();
+         System.out.println(yz.a);
     }
 }
 abstract class A{
@@ -27,12 +28,14 @@ class C extends B{
 }
 
 interface Z{
+    
     static void hola(){
         System.out.println("in Z");
     }
 }
 
 interface Y{
+    int a = 10;
     default void  hola(){
         System.out.println("in Y");
     }
