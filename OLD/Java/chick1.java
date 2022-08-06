@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 //package Java;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class chick1 {
     public static void main(String[] args) {
         
-        B a = new C();
+        C a = new C();
         a.print();
     }
 }
