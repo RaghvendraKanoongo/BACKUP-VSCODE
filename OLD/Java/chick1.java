@@ -11,9 +11,10 @@ public class chick1 {
     }
 }
 class A{
-    // void print(){
-    //     System.out.println("inside A");
-    // }
+    void print(){
+        System.out.println("inside A");
+    }
+   
 }
 class B extends A{
     
