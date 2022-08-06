@@ -6,8 +6,8 @@
 public class chick1 {
     public static void main(String[] args) {
         
-        A a = new B();
-        a.print();
+        B a = new B();
+        
         YZ yz = new YZ();
         yz.hola();
         System.out.println(yz.a);   
@@ -15,7 +15,7 @@ public class chick1 {
         Runnable r = new Runnable(){
             @Override
                 public void run(){
-                    
+
                 }
         };
 
