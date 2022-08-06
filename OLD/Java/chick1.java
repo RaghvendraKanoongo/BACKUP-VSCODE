@@ -10,7 +10,14 @@ public class chick1 {
         a.print();
         YZ yz = new YZ();
         yz.hola();
-        System.out.println(yz.a);
+        System.out.println(yz.a);   
+        
+        Runnable r = new Runnable(){
+            @Override
+                public void run(){
+
+                }
+        };
 
     }
 }
