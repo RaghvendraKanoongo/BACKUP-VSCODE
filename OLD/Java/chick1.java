@@ -18,10 +18,7 @@ abstract class A{
 }
 class B extends A{
     
-    void print() {
-        
-        System.out.println("inside B");
-    }
+   
 }
 class C extends B{
 
