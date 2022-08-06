@@ -6,11 +6,18 @@ import java.util.ArrayList;
 public class chick1 {
     public static void main(String[] args) {
         
-        ArrayList <Integer> arr = new ArrayList<>();
-        arr.add(11);
-        arr.add(22);
-        arr.add(11);
-        arr.size();
-        System.out.println(arr.size());
+        
+    }
+}
+class A{
+    void print(){
+        System.out.println("inside A");
+    }
+}
+class B extends A{
+    
+    void print() {
+        super.print();
+        
     }
 }
