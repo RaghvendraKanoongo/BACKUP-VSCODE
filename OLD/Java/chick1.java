@@ -44,3 +44,8 @@ interface Y{
 class YZ implements Z,Y{
     
 }
+enum Level{
+    HIGH,
+    MEDIUM,
+    LOW
+}
