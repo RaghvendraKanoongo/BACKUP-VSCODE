@@ -7,10 +7,12 @@ public class AmbaSingh {
 
     public static void main(String[] args) {
 
+        System.out.println("hola");
+
 
     }
     
-    static void solve(){
+    public static void solve(){
         System.out.println("inside static solve");
     }
     
