@@ -6,13 +6,16 @@ public class AmbaSingh {
     static int x = 99;
     final int zz;
     AmbaSingh(int zz){
+        super();
             this.zz = zz;
+            System.out.println(this.zz);
     }
     public static void main(String[] args) {
         System.out.println("Babaji");
         System.out.println(x);
         int y = 99;
-        AmbaSingh
+        AmbaSingh as = new AmbaSingh(55);
+
         
 
     }
