@@ -4,7 +4,7 @@ public class AmbaSingh {
         x = 98;
     }
     static int x = 99;
-    final int zz;
+    static final int zz;
     AmbaSingh(int zz){
         super();
             this.zz = zz;
