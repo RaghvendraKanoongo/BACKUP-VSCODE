@@ -1,4 +1,4 @@
-import static java.lang.Integer.MAX_VALUE;
+import java.lang.Integer;
 // import static java.lang.Byte.MAX_VALUE;
 import java.lang.Math;
 public class Editor {
