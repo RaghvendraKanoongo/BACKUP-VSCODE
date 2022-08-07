@@ -7,11 +7,8 @@ public class AmbaSingh {
 
     
     public static void main(String[] args) {
-        final int i  = 0;
-        System.out.println("chal bha");
+       
 
-        System.out.println(i++);
-        
 
     }
 }
