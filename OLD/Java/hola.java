@@ -17,7 +17,8 @@ public class hola {
         }
     }
     System.out.println(arr);
-    Iterator itr = arr.
+    Iterator itr = arr.iterator();
+    
   }
 }
 class A{
