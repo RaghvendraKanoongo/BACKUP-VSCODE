@@ -22,7 +22,7 @@ public class AmbaSingh {
  */
  class InnerAmbaSingh extends AmbaSingh {
 
-    void main(Integer[] arr){
+    public static void main(String[] arr){
         System.out.println("inside Inner's main");
     }
 }
