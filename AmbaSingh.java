@@ -9,9 +9,8 @@ public class AmbaSingh {
     static int a = 99;
     public static void main(String[] args) {
 
-       
-
-
     }
     
+    static void solve(){}
+    void solve(){}
 }
