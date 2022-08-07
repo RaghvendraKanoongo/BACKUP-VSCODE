@@ -3,7 +3,18 @@ import java.util.ArrayList;
 public class hola {
 
   public static void main(String[] args) {
-    ArrayList
+    ArrayList<Object> arr = new ArrayList<>();
+    boolean flag = false;
+    for (int i = 0; i < args.length; i++) {
+        if(flag){
+            arr.add(""+i);
+
+        }
+        else{
+            flag = !flag;
+
+        }
+    }
   }
 }
 class A{
