@@ -6,7 +6,5 @@ public class Editor {
         static int h = 99;
         
     }
-    void ma(){
     
-    }
 }
