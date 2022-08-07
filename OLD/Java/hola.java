@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class hola {
 
   public static void main(String[] args) {
-    
+    ArrayList
   }
 }
 class A{
@@ -15,6 +15,5 @@ class B extends A{
   void tc(int a){
     
     System.out.println("hola from B");
-
   }
 }
