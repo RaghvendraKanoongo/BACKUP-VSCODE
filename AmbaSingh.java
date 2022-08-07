@@ -5,12 +5,13 @@ public class AmbaSingh {
     }
     static int x = 99;
 
-    int a = 90;
-    static int a = 99;
     public static void main(String[] args) {
 
+        
     }
     
-    static void solve(){}
-    void solve(){}
+    static void solve(){
+        System.out.println("inside static solve");
+    }
+    
 }
