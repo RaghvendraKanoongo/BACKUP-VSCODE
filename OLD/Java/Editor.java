@@ -1,9 +1,10 @@
-
+import static java.lang.Integer.MAX_VALUE;;
+import static java.lang.Byte.MAX_VALUE;;
 public class Editor {
 
-    static int MAX_VALUE = 99;
+    // static int MAX_VALUE = 99;
     public static void main(String args[]){
-        static int i = 99;
+        System.out.println(MAX_VALUE);
         
     }
     
