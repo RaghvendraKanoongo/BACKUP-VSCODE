@@ -1,20 +1,23 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class hola {
 
   public static void main(String[] args) {
-    ArrayList<Object> arr = new ArrayList<>();
+    ArrayList<Object> arr = new ArrayList<>(10);
     boolean flag = false;
-    for (int i = 0; i < args.length; i++) {
+    for (int i = 0; i < 10; i++) {
         if(flag){
-            arr.add(""+i);
-
+            arr.add("h"+i);
+            flag = !flag;
         }
         else{
             flag = !flag;
-
+            arr.add(i);
         }
     }
+    System.out.println(arr);
+    Iterator itr = arr.
   }
 }
 class A{
