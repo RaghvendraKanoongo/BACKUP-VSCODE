@@ -3,6 +3,7 @@
 public class UnderstandingInterf {
     public static void main(String[] args) {
         System.out.println("pran nath babaji");
+        PP pp = new PP();
     }
 }
 
@@ -26,10 +27,10 @@ class Y extends X{
 
 interface D{
     int i;
-    void hola(int i);
+    void hola();
 }
 class PP implements D{
-    public void hola(int i){
-        
+    public void hola(){
+        System.out.println(i);
     }
 }
