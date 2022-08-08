@@ -11,6 +11,7 @@ public class staticBlock_Method {
         System.out.println("---------- Method hiding ----------");
         a.main();
         b.main();
+        static int i = 0;
         ab.main();
         
     }
