@@ -4,12 +4,16 @@ public class staticBlock_Method {
     public static void main(String[] args) {
         System.out.println("babaji");
         A a = new B();
+        staticBlock_Method ss = new zz();
+        ss.main(4);
         
     }
 
 }
 class zz extends staticBlock_Method{
-    
+    public static void main(int i) {
+        System.out.println("hola");
+    }
 }
 
 class A{
