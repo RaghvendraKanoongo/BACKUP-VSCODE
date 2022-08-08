@@ -10,5 +10,5 @@ interface A{
     void m();
 }
 abstract class B implements A{
-    void m();
+    protected abstract void m();
 }
