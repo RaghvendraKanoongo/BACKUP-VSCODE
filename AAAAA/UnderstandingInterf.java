@@ -30,8 +30,11 @@ interface D{
     int i = 19;
     void hola();
 }
-class PP implements D{
+interface DD extends D{
+    
+}
+class PP implements D,DD{
     public void hola(){
-        System.out.println();// can not increment as it is final static and puboic in interface D
+        System.out.println(i);// can not increment as it is final static and puboic in interface D
     }
 }
