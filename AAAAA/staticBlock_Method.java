@@ -4,8 +4,9 @@ public class staticBlock_Method {
     public static void main(String[] args) {
         System.out.println("babaji");
         A a = new B();
-        a.ho
-        
+        a.hola1();
+        B a1 = new B();
+        a1.hola1(7);
         
     }
 
@@ -31,7 +32,9 @@ class A{
     void hola1(){
         System.out.println("In non static A");
     }
-
+    static void main(){
+        System.out.println("In A's static method");
+    }
 }
 class  B extends A{
     {
@@ -43,6 +46,7 @@ class  B extends A{
     void hola1(int i){
         System.out.println("in hola1");
     }
+    static void 
 
 }
     
