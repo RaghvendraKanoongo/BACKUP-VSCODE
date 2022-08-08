@@ -27,11 +27,11 @@ class Y extends X{
 }
 
 interface D{
-    int i;
+    int i = 19;
     void hola();
 }
 class PP implements D{
     public void hola(){
-        
+        System.out.println(i++);
     }
 }
