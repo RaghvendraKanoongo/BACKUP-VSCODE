@@ -3,8 +3,8 @@
 public class UnderstandingInterf {
     public static void main(String[] args) {
         System.out.println("pran nath babaji");
-        PP pp = new PP();
-        pp.hola();
+        // PP pp = new PP();
+        // pp.hola();
     }
 }
 
@@ -30,8 +30,8 @@ interface D{
     int i = 19;
     void hola();
 }
-class PP implements D{
-    public void hola(){
-        System.out.println(i++);
-    }
-}
+// class PP implements D{
+//     public void hola(){
+//         System.out.println(i++);// can not increment as it is final static and puboic in interface D
+//     }
+// }
