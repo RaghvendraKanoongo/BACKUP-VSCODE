@@ -29,7 +29,7 @@ interface D{
     void hola(int i);
 }
 class PP implements D{
-    void hola(int i){
-
+    public void hola(int i){
+        
     }
 }
