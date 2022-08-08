@@ -45,7 +45,7 @@ class PP implements D,DD{
 interface ZZZZ{
     void hola();
 }
-interface YYYY extends ZZZZ{
+ interface YYYY extends ZZZZ{
     int hola();// return type is incompitable
 }
 // class temp implements ZZZZ,YYYY{
@@ -55,3 +55,6 @@ interface YYYY extends ZZZZ{
         
     // }
 // }
+abstract interface lsjd{
+    void same();
+}
