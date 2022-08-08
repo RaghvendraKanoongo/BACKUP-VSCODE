@@ -7,7 +7,8 @@ public class UnderstandingInterf {
 }
 
 interface A{
-    void m(){
-
-    }
+    void m();
+}
+abstract class B implements A{
+    void m();
 }
