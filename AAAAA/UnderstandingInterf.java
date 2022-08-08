@@ -4,6 +4,7 @@ public class UnderstandingInterf {
     public static void main(String[] args) {
         System.out.println("pran nath babaji");
         PP pp = new PP();
+        pp.hola();
     }
 }
 
@@ -31,6 +32,6 @@ interface D{
 }
 class PP implements D{
     public void hola(){
-        System.out.println(i);
+        
     }
 }
