@@ -7,7 +7,7 @@ public class UnderstandingInterf {
         // pp.hola();
 
     }
-    static final a;
+    // static final a;
 }
 
 interface A{
@@ -29,7 +29,7 @@ class Y extends X{
 }
 
 interface D{
-    int i ;
+    // int i ;
     void hola();
 
 }
@@ -39,5 +39,19 @@ interface DD extends D{
 class PP implements D,DD{
     public void hola(){
         System.out.println();// can not increment as it is final static and puboic in interface D
+    }
+}
+
+interface ZZZZ{
+    void hola();
+}
+interface YYYY{
+    int hola();
+}
+class temp implements ZZZZ,YYYY{
+    @Override
+    public int hola() {
+        // TODO Auto-generated method stub
+        
     }
 }
