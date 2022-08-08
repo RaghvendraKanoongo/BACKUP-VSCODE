@@ -4,6 +4,7 @@ public class staticBlock_Method {
     public static void main(String[] args) {
         System.out.println("babaji");
         A a = new B();
+        System.out.println("hola ");
         a.hola1();
         B b = new B();
         A ab = new B();
