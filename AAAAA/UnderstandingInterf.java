@@ -5,7 +5,9 @@ public class UnderstandingInterf {
         System.out.println("pran nath babaji");
         // PP pp = new PP();
         // pp.hola();
+
     }
+    static final a;
 }
 
 interface A{
@@ -27,14 +29,15 @@ class Y extends X{
 }
 
 interface D{
-    int i = 19;
+    int i ;
     void hola();
+
 }
 interface DD extends D{
     
 }
 class PP implements D,DD{
     public void hola(){
-        System.out.println(i);// can not increment as it is final static and puboic in interface D
+        System.out.println();// can not increment as it is final static and puboic in interface D
     }
 }
