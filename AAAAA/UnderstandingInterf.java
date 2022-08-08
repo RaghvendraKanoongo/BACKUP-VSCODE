@@ -7,8 +7,14 @@ public class UnderstandingInterf {
 }
 
 interface A{
-    void m();
+     void m();
 }
 abstract class B implements A{
-    protected abstract void m();
+    public abstract void m();// here public should be given bcoz interface ki sari 
+                            //  methods public hoth h and apan usko default leja re h 
+}
+class X{
+    void stay(){
+        
+    }
 }
