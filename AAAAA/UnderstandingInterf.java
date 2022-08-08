@@ -14,7 +14,12 @@ abstract class B implements A{
                             //  methods public hoth h and apan usko default leja re h 
 }
 class X{
-    void stay(){
+     protected void stay(){
         
     }
+}
+class Y extends X{
+    // private void stay(){} -- same thing weker access aara h 
+        
+    
 }
