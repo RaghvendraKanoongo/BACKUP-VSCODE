@@ -11,7 +11,7 @@ public class MergeSort {
 
 class A{
     static{
-        System.out.println("in Static Block");
+        System.out.println("in A's Static Block");
     }
     {
         System.out.println("in A's instance block");
@@ -25,6 +25,9 @@ class A{
 
 }
 class  B extends A{
+    {
+        System.out.println("in B's instance block ");
+    }
     static{
         System.out.println("IN b's static block");
     }
