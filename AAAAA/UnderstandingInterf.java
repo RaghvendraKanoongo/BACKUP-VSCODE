@@ -45,13 +45,13 @@ class PP implements D,DD{
 interface ZZZZ{
     void hola();
 }
-interface YYYY{
-    int hola();
+interface YYYY extends ZZZZ{
+    int hola();// return type is incompitable
 }
-class temp implements ZZZZ,YYYY{
-    @Override
-    public int hola() {
-        // TODO Auto-generated method stub
+// class temp implements ZZZZ,YYYY{
+    // @Override
+    // public void hola() {
+    //     // TODO Auto-generated method stub
         
-    }
-}
+    // }
+// }
