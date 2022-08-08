@@ -5,8 +5,13 @@ public class staticBlock_Method {
         System.out.println("babaji");
         A a = new B();
         a.hola1();
-        B a1 = new B();
-        a1.hola1(7);
+        B b = new B();
+        A ab = new B();
+        b.hola1(7);
+        System.out.println("---------- Method hiding ----------");
+        a.main();
+        b.main();
+        ab.main();
         
     }
 
@@ -46,7 +51,9 @@ class  B extends A{
     void hola1(int i){
         System.out.println("in hola1");
     }
-    static void 
+    static void main(){
+        System.out.println("in B's static method");
+    }
 
 }
     
