@@ -23,3 +23,13 @@ class Y extends X{
         
     
 }
+
+interface D{
+    int i;
+    void hola(int i);
+}
+class PP implements D{
+    void hola(int i){
+
+    }
+}
