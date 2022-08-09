@@ -1,5 +1,7 @@
 // package AAAAA;
 
+class Animal{}
+class Monkey extends Animal{}
 public class IS_A {
     public static void main(String[] args) {
         System.out.println("babaji");
@@ -11,6 +13,14 @@ public class IS_A {
         float i = 99.8f;
         a1.m1(66.6);// automatic promotion in over
         //a1.m2(1, 2);// ambiguis
+        Animal am = new Monkey();
+        
+
+    }
+    void m1(Animal a){
+
+    }
+    void m1(Monkey m){
 
     }
     void m1(double f){
