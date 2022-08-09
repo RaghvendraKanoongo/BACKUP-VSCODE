@@ -7,6 +7,7 @@ public class IS_A {
         System.out.println("babaji");
         A a = new B();
         a.hola();// calls child's method
+        System.out.println("iske uper wali ");
         new B().hola();// calles child's method
         // a.hola2();// error
         IS_A a1 = new IS_A();
