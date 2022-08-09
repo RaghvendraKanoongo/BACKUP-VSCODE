@@ -10,8 +10,6 @@ class A{
         System.out.println("IN A");
     }
 }
-class B extends A{
-    int hola(){
-        System.out.println("in B");
-    }
+abstract class B implements A{
+    
 }
