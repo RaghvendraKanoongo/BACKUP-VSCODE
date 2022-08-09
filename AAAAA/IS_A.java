@@ -15,7 +15,6 @@ public class IS_A {
         //a1.m2(1, 2);// ambiguis
         Animal am = new Monkey();
         
-
     }
     void m1(Animal a){
 
