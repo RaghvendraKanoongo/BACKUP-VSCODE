@@ -14,13 +14,16 @@ public class IS_A {
         a1.m1(66.6);// automatic promotion in over
         //a1.m2(1, 2);// ambiguis
         Animal am = new Monkey();
+        a1.m11(am);// here as it is overloading reference will be used
         
     }
-    void m1(Animal a){
-
+    void m11(Animal a){
+        System.out.println("in Animal");
     }
-    void m1(Monkey m){
-
+    void m11(Monkey m){
+        {
+            System.out.println("in monkey");
+        }
     }
     void m1(double f){
         System.out.println("this is float "+f);
