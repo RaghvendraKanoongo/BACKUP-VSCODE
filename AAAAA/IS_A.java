@@ -24,7 +24,9 @@ class B extends A{
     }
 }
 
-class C extends D{
-
+class C {
+    int m1(){
+        return 0;
+    }
 }
 class D extends C{}
