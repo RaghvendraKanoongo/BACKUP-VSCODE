@@ -7,6 +7,13 @@ public class IS_A {
         a.hola();// calls child's method
         new B().hola();// calles child's method
         // a.hola2();// error
+        IS_A a1 = new IS_A();
+        int i = 99;
+        a1.m1(i);
+
+    }
+    void m1( f){
+        System.out.println("this is float "+f);
     }
 }
 
@@ -30,7 +37,7 @@ class C {
     }
 }
 class D extends C{
-    private void m1( ){
+    private void m1( int i ){
 
     }
 }
