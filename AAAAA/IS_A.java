@@ -8,11 +8,14 @@ public class IS_A {
         new B().hola();// calles child's method
         // a.hola2();// error
         IS_A a1 = new IS_A();
-        int i = 99;
-        a1.m1(i);
+        byte i = 99;
+        a1.m1(i);// automatic promotion in over
 
     }
-    void m1( f){
+    void m1(long l){
+        System.out.println("this is long "+l);
+    }
+    void m1(float f){
         System.out.println("this is float "+f);
     }
 }
