@@ -12,7 +12,7 @@ public class IS_A {
         a1.m1(66.6);// automatic promotion in over
 
     }
-    void m1(float f){
+    void m1(double f){
         System.out.println("this is float "+f);
     }
     void m1(int l){
