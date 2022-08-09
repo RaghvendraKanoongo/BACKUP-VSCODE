@@ -3,6 +3,10 @@
 public class IS_A {
     public static void main(String[] args) {
         System.out.println("babaji");
+        A a = new B();
+        a.hola();
+        new B().hola();// 
+        a.hola2();
     }
 }
 
@@ -16,6 +20,6 @@ class B extends A{
         System.out.println("from B");
     }
     void hola2(){
-        s
+        System.out.println("again from B");
     }
 }
