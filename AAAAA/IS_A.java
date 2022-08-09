@@ -4,9 +4,9 @@ public class IS_A {
     public static void main(String[] args) {
         System.out.println("babaji");
         A a = new B();
-        a.hola();
-        new B().hola();// 
-        a.hola2();
+        a.hola();// calls child's method
+        new B().hola();// calles child's method
+        // a.hola2();// error
     }
 }
 
