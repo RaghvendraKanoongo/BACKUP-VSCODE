@@ -10,7 +10,7 @@ public class IS_A {
         IS_A a1 = new IS_A();
         float i = 99.8f;
         a1.m1(66.6);// automatic promotion in over
-        a1.m2(1, 2);
+        //a1.m2(1, 2);// ambiguis
 
     }
     void m1(double f){
