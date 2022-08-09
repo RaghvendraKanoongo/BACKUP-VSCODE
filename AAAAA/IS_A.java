@@ -6,4 +6,16 @@ public class IS_A {
     }
 }
 
-class A
+class A{
+    void hola(){
+        System.out.println("from A");
+    }
+}
+class B extends A{
+    void hola(){
+        System.out.println("from B");
+    }
+    void hola2(){
+        s
+    }
+}
