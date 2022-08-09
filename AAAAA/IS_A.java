@@ -10,6 +10,7 @@ public class IS_A {
         IS_A a1 = new IS_A();
         float i = 99.8f;
         a1.m1(66.6);// automatic promotion in over
+        a1.m2(1, 2);
 
     }
     void m1(double f){
@@ -18,7 +19,12 @@ public class IS_A {
     void m1(int l){
         System.out.println("this is long "+l);
     }
-    
+    void m2(int i,double d){
+        System.out.println("hi");
+    }
+    void m2(double i,int d){
+        System.out.println("hi");
+    }
 }
 
 class A{
