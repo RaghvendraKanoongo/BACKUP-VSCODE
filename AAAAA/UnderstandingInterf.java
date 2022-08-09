@@ -29,7 +29,7 @@ class Y extends X{
 }
 
 interface D{
-    // int i ;
+    int i ;
     void hola();
 
 }
@@ -46,7 +46,7 @@ interface ZZZZ{
     void hola();
 }
  interface YYYY extends ZZZZ{
-    int hola();// return type is incompitable
+    // int hola();// return type is incompitable
 }
 // class temp implements ZZZZ,YYYY{
     // @Override
