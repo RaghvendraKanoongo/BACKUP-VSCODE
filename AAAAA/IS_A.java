@@ -29,4 +29,8 @@ class C {
         return 0;
     }
 }
-class D extends C{}
+class D extends C{
+    private void m1( ){
+
+    }
+}
