@@ -1,9 +1,9 @@
 // package AAAAA;
-import java.sql.Date;
+import java.util.Date;
 
 public class Understandingclasses {
     public static void main(String[] args) {
-        java.util
+        java.sql.Date d = new Date(1,2,3);
     }
 }
 class A{
