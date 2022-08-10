@@ -10,9 +10,13 @@ class A{
     Object hola(){
 
     }
+    void h1(){
+
+    }
 }
 class B extends A{
     String hola(){// here it is co varient as string is child of Object there B can change return type 
 
     }
+    
 }
