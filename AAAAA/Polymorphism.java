@@ -7,6 +7,9 @@ public class Polymorphism {
     }
 }
 class A{
+    A{
+        s
+    }
     Object hola(){
 
     }
