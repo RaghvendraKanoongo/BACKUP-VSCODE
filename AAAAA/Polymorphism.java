@@ -7,9 +7,7 @@ public class Polymorphism {
     }
 }
 class A{
-    A{
-        s
-    }
+    
     Object hola(){
 
     }
@@ -25,5 +23,12 @@ class B extends A{
 
     }
     private int h1(int i){
+    }
+}
+
+class ZZZ{
+    ZZZ(){
+        super();
+        super.toString();
     }
 }
