@@ -19,7 +19,7 @@ class A{
 }
 class B extends A{
     String hola(){// 
-        
+
     }
     private int h1(int i){
     }
