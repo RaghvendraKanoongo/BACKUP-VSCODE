@@ -3,6 +3,7 @@
 public class Polymorphism {
     public static void main(String[] args) {
         System.out.println("babaji");
+        ZZZ z = new ZZZ()
         
     }
 }
@@ -29,6 +30,6 @@ class B extends A{
 class ZZZ{
     ZZZ(){
         super();
-        super.toString();
+        
     }
 }
