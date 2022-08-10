@@ -6,7 +6,7 @@ public class Polymorphism {
 
         BB b = new CC();
         b.hello();
-        /b.chintu();
+        //b.chintu();
     }
 }
 // class A{
