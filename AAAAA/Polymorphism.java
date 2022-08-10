@@ -6,27 +6,28 @@ public class Polymorphism {
 
         BB b = new CC();
         b.hello();
+        /b.chintu();
     }
 }
-class A{
+// class A{
     
-    // Object hola(){
+//     // Object hola(){
 
-    // }
-    // void h1(){
+//     // }
+//     // void h1(){
 
-    // }
-    // int h1(double i){
+//     // }
+//     // int h1(double i){
 
-    // }
-}
-class B extends A{
-    // String hola(){// 
+//     // }
+// }
+// class B extends A{
+//     // String hola(){// 
 
-    // }
-    // private int h1(int i){
-    // }
-}
+//     // }
+//     // private int h1(int i){
+//     // }
+// }
 
 class ZZZ{
     ZZZ(){
@@ -47,5 +48,8 @@ class BB extends AA{
 class CC extends BB{
     void hello(){
         System.out.println("in C");
+    }
+    void chintu(){
+        System.out.println("say yes");
     }
 }
