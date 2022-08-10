@@ -33,3 +33,16 @@ class ZZZ{
         
     }
 }
+class AA {
+    void hello(){
+        System.out.println("in A");
+    }
+}
+class BB extends AA{
+    System.out.println("in B");
+}
+class CC extends BB{
+    void hello(){
+        System.out.println("in C");
+    }
+}
