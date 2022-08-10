@@ -1,5 +1,9 @@
-class PP implements D{
-    public void hola(){
-        System.out.println(i++);// can not increment as it is final static and puboic in interface D
-    }
-}
+Object hola(){
+
+    // }
+    // void h1(){
+
+    // }
+    // int h1(double i){
+
+    // }

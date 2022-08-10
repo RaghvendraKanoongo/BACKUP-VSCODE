@@ -3,28 +3,29 @@
 public class Polymorphism {
     public static void main(String[] args) {
         System.out.println("babaji");
-        ZZZ z = new ZZZ()
-        
+
+        BB b = new CC();
+        b.hello();
     }
 }
 class A{
     
-    Object hola(){
+    // Object hola(){
 
-    }
-    void h1(){
+    // }
+    // void h1(){
 
-    }
-    int h1(double i){
+    // }
+    // int h1(double i){
 
-    }
+    // }
 }
 class B extends A{
-    String hola(){// 
+    // String hola(){// 
 
-    }
-    private int h1(int i){
-    }
+    // }
+    // private int h1(int i){
+    // }
 }
 
 class ZZZ{
@@ -39,7 +40,9 @@ class AA {
     }
 }
 class BB extends AA{
-    System.out.println("in B");
+    void hello(){
+        System.out.println("in B");
+    }
 }
 class CC extends BB{
     void hello(){
