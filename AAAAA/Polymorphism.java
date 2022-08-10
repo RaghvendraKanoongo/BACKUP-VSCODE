@@ -22,6 +22,5 @@ class B extends A{
 
     }
     private int h1(int i){
-
     }
 }
