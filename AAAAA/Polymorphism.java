@@ -18,8 +18,8 @@ class A{
     }
 }
 class B extends A{
-    String hola(){// here it is co varient as string is child of Object there B can change return type 
-
+    String hola(){// 
+        
     }
     private int h1(int i){
     }
