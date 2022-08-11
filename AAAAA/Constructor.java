@@ -26,4 +26,10 @@ class Bb extends Aa{
         super();
         System.out.println("in paramatrized constructor");
     }
+    void one(){
+        two();
+    }
+    void two(){
+        one();
+    }
 }
