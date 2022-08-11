@@ -3,7 +3,7 @@
 public class Constructor {
     public static void main(String[] args) {
         System.out.println("babaji");
-        Bb b = new Bb();
+        Aa b = new Bb(10);
     }
     Constructor(){
         
@@ -19,6 +19,11 @@ class Aa{
 }
 class Bb extends Aa{
     Bb(){
-        System.out.println("In Bb");
+        this(10);
+        System.out.println("In Bb Constructor");
+    }
+    Bb(int i ){
+        super();
+        System.out.println("in paramatrized constructor");
     }
 }
