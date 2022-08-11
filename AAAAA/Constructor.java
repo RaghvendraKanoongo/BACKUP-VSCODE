@@ -10,7 +10,8 @@ public class Constructor {
     public static void main(String[] args) {
         System.out.println("babaji");
         Bb b = new Bb(10);
-        one();
+        // one();
+        Cc c = new Cc(10);
     }
     Constructor(){
         
@@ -39,4 +40,7 @@ class Bb extends Aa{
     void two(){
         one();
     }
+}
+class Cc{
+    Cc(int i){}
 }
