@@ -1,9 +1,16 @@
 // package AAAAA;
 
 public class Constructor {
+    static void one(){
+        two();
+    }
+    static void two(){
+        one();
+    }
     public static void main(String[] args) {
         System.out.println("babaji");
-        Aa b = new Bb(10);
+        Bb b = new Bb(10);
+        one();
     }
     Constructor(){
         
