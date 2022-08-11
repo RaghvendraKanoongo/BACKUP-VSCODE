@@ -11,7 +11,8 @@ public class Constructor {
         System.out.println("babaji");
         Bb b = new Bb(10);
         // one();
-        Cc c = new Cc(10);
+        Dd d = new Dd();
+        
     }
     Constructor(){
         
@@ -41,6 +42,12 @@ class Bb extends Aa{
         one();
     }
 }
-class Cc{
-    Cc(int i){}
+abstract class Cc{
+     Cc(){
+        super();
+     }
+
+}
+class Dd extends Cc{
+
 }
