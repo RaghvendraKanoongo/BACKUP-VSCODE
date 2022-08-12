@@ -5,7 +5,7 @@ public class  Thread_Demo {
         System.out.println("babaji");
 
         MyThread mt = new MyThread();
-        mt.run();
+        mt.start();
         for (int i = 0; i <5; i++) {
             System.out.println("in void main");
         }
