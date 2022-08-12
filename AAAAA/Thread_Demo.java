@@ -14,7 +14,7 @@ public class  Thread_Demo {
 
 class MyThread extends Thread{
     public void run(){
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 30; i++) {
             System.out.println("Child Thread");
         }
         
