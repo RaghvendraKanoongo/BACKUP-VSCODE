@@ -11,7 +11,8 @@ public class  Thread_Demo {
         //     System.out.println("Main Thread");
         // }
         TempThread tt = new TempThread();
-        
+        Thread temp = new Thread(tt);
+        temp.start();
     }
 }
 
