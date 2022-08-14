@@ -6,6 +6,7 @@ public class  Thread_Demo {
 
         MyThread mt = new MyThread();
         mt.start();
+        // mt.run();
         for (int i = 0; i <10; i++) {
             System.out.println("Main Thread");
         }
