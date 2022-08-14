@@ -1,5 +1,5 @@
 // package SortingAlgos;
 
-public class RedixSort {
+public class InversionCount {
     
 }
