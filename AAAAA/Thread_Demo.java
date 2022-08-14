@@ -5,11 +5,13 @@ public class  Thread_Demo {
         System.out.println("babaji");
 
         MyThread mt = new MyThread();
-        mt.start();
+        // mt.start();
         // mt.run();
-        for (int i = 0; i <10; i++) {
-            System.out.println("Main Thread");
-        }
+        // for (int i = 0; i <10; i++) {
+        //     System.out.println("Main Thread");
+        // }
+        TempThread tt = new TempThread();
+        
     }
 }
 
@@ -26,7 +28,7 @@ class TempThread implements Runnable{
     public void run() {
         // TODO Auto-generated method stub
         for (int i = 0; i < 10; i++) {
-            System.out.println("inside TempThread ");
+            System.out.println("\"inside TempThread \"");
         }
     }
 }
