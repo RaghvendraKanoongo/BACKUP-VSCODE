@@ -34,17 +34,12 @@ public class MergeSort {
                 i++;
                 k++;
             }
-            else if(arr[i]>arr[j]){
+            else{
                 sortedArr[k] = arr[j];
                 j++;
                 k++;
             }
-            else if(arr[i] == arr[j]){
-                sortedArr[k] = arr[i];
-                i++;
-                j++;
-                k++;
-            }
+            
         }
         while(i<=m){
             sortedArr[k] = arr[i];
