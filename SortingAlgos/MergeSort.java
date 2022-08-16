@@ -1,4 +1,4 @@
-import Algorithems.SieveOfEratosthenes;
+// import Algorithems.SieveOfEratosthenes;
 
 // package SortingAlgos;
 
@@ -14,7 +14,7 @@ public class MergeSort {
         mergeSort(arr, s, m);
         mergeSort(arr, m+1, e);
         
-        return merge(arr,s,m,e);;
+        return merge(arr,s,m,e);
     }
 
     static int[] merge(int[] arr, int s, int m, int e){
@@ -48,10 +48,12 @@ public class MergeSort {
             sortedArr[k] = arr[j];
             j++;
         }
-        for (int index = s; index < e; index++) {
-            arr[index] = 
+        k = 0;
+        for (int index = s; index < sortedArr.length; index++,k++) {
+            arr[index] = sortedArr[k];
+
         }
-        return sortedArr;
+        return arr;
     }
 
 }
