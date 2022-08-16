@@ -40,6 +40,14 @@ public class MergeSort {
                 k++;
             }
         }
+        while(i<=m){
+            sortedArr[k] = arr[i];
+            i++;
+        }
+        while(j<=e){
+            sortedArr[k] = arr[j];
+            j++;
+        }
     }
 
 }
