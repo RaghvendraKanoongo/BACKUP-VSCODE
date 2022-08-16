@@ -15,6 +15,9 @@ public class MergeSort {
         return new int[2];
     }
 
+    static int[] merge(){
+        
+    }
 
 }
 
