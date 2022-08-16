@@ -19,9 +19,12 @@ public class MergeSort {
 
     static int[] merge(int[] arr, int s, int m, int e){
         int[] sortedArr = new int[m+e];
-        
+        int i = s;
+        int j = m+1;
         while(true){
-            
+            if(arr[i]<arr[j]){
+                s
+            }
         }
     }
 
