@@ -48,10 +48,12 @@ public class MergeSort {
         while(i<=m){
             sortedArr[k] = arr[i];
             i++;
+            k++;
         }
         while(j<=e){
             sortedArr[k] = arr[j];
             j++;
+            k++;
         }
       
             System.out.println(Arrays.toString(sortedArr));
