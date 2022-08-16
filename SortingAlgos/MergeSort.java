@@ -13,12 +13,16 @@ public class MergeSort {
        int m = (s+e)/2;
         mergeSort(arr, s, m);
         mergeSort(arr, m+1, e);
-        
+        merge(arr,s,m,e);
         return new int[2];
     }
 
-    static int[] merge(){
-        int[] arr = new int[m+e];
+    static int[] merge(int[] arr, int s, int m, int e){
+        int[] sortedArr = new int[m+e];
+        
+        while(true){
+            
+        }
     }
 
 }
