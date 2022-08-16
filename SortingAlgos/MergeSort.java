@@ -18,7 +18,7 @@ public class MergeSort {
     }
 
     static int[] merge(int[] arr, int s, int m, int e){
-        int[] sortedArr = new int[m+e];
+        int[] sortedArr = new int[e+1];
         int i = s;
         int j = m+1;
         int k = 0;
