@@ -22,18 +22,23 @@ public class MergeSort {
         int i = s;
         int j = m+1;
         int k = 0;
-        while(true){
+        while(i<=m && j<=e){
             if(arr[i]<arr[j]){
                 sortedArr[k] = arr[i];
                 i++;
                 k++;
             }
-            if(arr[i]>arr[j]){
+            else if(arr[i]>arr[j]){
                 sortedArr[k] = arr[j];
                 j++;
                 k++;
             }
-            
+            else if(arr[i] == arr[j]){
+                sortedArr[k] = arr[i];
+                i++;
+                j++;
+                k++;
+            }
         }
     }
 
