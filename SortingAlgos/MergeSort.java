@@ -1,4 +1,4 @@
-package SortingAlgos;
+// package SortingAlgos;
 import java.util.Arrays;
 
 // import Algorithems.SieveOfEratosthenes;
