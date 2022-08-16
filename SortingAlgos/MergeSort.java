@@ -8,6 +8,9 @@ public class MergeSort {
     }
     static int[] mergeSort(int[] arr, int s, int m, int e){
 
+        m = (s+e)/2;
+        mergeSort(arr, s, m, m);
+        mergeSort(arr, m+1, m, e);
         
         return new int[2];
     }
