@@ -7,7 +7,7 @@ import java.util.Arrays;
 public class MergeSort {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {3,5,2,6,1,8,4,9,7};
+        int[] arr = {3,5,2,6,1,8,4,9};
         mergeSort(arr, 0, arr.length-1);
     }
     static void mergeSort(int[] arr, int s, int e){
@@ -19,10 +19,11 @@ public class MergeSort {
         mergeSort(arr, s, m);
         mergeSort(arr, m+1, e);
         
-        merge(arr,s,m,e);
+        arr = merge(arr,s,m,e);
+        System.out.println(Arrays.toString(arr));
     }
 
-    static void merge(int[] arr, int s, int m, int e){
+    static int[] merge(int[] arr, int s, int m, int e){
         int[] sortedArr = new int[e+1];
         int i = s;
         int j = m+1;
@@ -57,9 +58,9 @@ public class MergeSort {
         }
         int k1 = 0;
         for (int k2 = s; k2 <= e; k2++,k1++) {
-            arr
+            arr[k2] = sortedArr[k1];
         }
-   
+        return arr;
         
     }
 
