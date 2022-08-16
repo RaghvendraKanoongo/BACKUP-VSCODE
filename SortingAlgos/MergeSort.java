@@ -13,8 +13,8 @@ public class MergeSort {
        int m = (s+e)/2;
         mergeSort(arr, s, m);
         mergeSort(arr, m+1, e);
-        merge(arr,s,m,e);
-        return new int[2];
+        
+        return merge(arr,s,m,e);;
     }
 
     static int[] merge(int[] arr, int s, int m, int e){
@@ -48,6 +48,7 @@ public class MergeSort {
             sortedArr[k] = arr[j];
             j++;
         }
+        return sortedArr;
     }
 
 }

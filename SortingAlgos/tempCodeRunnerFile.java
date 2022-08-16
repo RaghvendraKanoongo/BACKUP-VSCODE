@@ -7,8 +7,8 @@ import java.util.Arrays;
  */
 public class tempCodeRunnerFile {
 	public static void main(String[] args) {
-		int[] arr = {1,3,2,4,5,6,7,8,9};
-		merge(arr, 0, 1, 8);
+		int[] arr = {5,4};
+		merge(arr, 0, 0, 1);
 	}
 	static void merge(int[] arr, int s, int m, int e){
         int[] sortedArr = new int[e+1];
