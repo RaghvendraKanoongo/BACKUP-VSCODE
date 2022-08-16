@@ -1,6 +1,8 @@
+package SortingAlgos;
+import java.util.Arrays;
+
 // import Algorithems.SieveOfEratosthenes;
 
-// package SortingAlgos;
 
 public class MergeSort {
     public static void main(String[] args) {
@@ -51,10 +53,9 @@ public class MergeSort {
             sortedArr[k] = arr[j];
             j++;
         }
-        k = 0;
-        if(s == 0 && e == arr.length-1){
-            
-        }
+      
+            System.out.println(Arrays.toString(sortedArr));
+   
         
     }
 

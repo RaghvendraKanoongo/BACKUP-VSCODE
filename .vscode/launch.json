@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "SortingAlgos.MergeSort",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
             "name": "Launch XorPairSum",
             "request": "launch",
             "mainClass": "Bit_Manipulatioin.XorPairSum",
