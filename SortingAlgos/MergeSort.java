@@ -48,6 +48,9 @@ public class MergeSort {
             sortedArr[k] = arr[j];
             j++;
         }
+        for (int index = s; index < e; index++) {
+            arr[index] = 
+        }
         return sortedArr;
     }
 
