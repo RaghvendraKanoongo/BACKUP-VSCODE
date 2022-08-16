@@ -18,7 +18,7 @@ public class MergeSort {
     }
 
     static int[] merge(){
-        
+        int[] arr = new int[m+e];
     }
 
 }
