@@ -8,16 +8,16 @@ public class MergeSort {
         int[] arr = {3,5,2,6,1,8,4,9,7};
         mergeSort(arr, 0, arr.length-1/2);
     }
-    static int[] mergeSort(int[] arr, int s, int e){
+    static void mergeSort(int[] arr, int s, int e){
 
        int m = (s+e)/2;
         mergeSort(arr, s, m);
         mergeSort(arr, m+1, e);
         
-        return merge(arr,s,m,e);
+        merge(arr,s,m,e);
     }
 
-    static int[] merge(int[] arr, int s, int m, int e){
+    static void merge(int[] arr, int s, int m, int e){
         int[] sortedArr = new int[e+1];
         int i = s;
         int j = m+1;
@@ -49,10 +49,7 @@ public class MergeSort {
             j++;
         }
         k = 0;
-        for (int index = s; index < sortedArr.length; index++,k++) {
-            arr[index] = sortedArr[k];
-
-        }
+        
         return arr;
     }
 
