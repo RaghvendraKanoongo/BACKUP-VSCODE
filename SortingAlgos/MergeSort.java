@@ -6,11 +6,14 @@ public class MergeSort {
     public static void main(String[] args) {
         System.out.println("babaji");
         int[] arr = {3,5,2,6,1,8,4,9,7};
-        mergeSort(arr, 0, arr.length-1/2);
+        mergeSort(arr, 0, (arr.length-1)/2);
     }
     static void mergeSort(int[] arr, int s, int e){
 
        int m = (s+e)/2;
+       if(s == e){
+        return;
+       }
         mergeSort(arr, s, m);
         mergeSort(arr, m+1, e);
         
@@ -49,8 +52,10 @@ public class MergeSort {
             j++;
         }
         k = 0;
+        if(s == 0 && e == arr.length-1){
+            
+        }
         
-        return arr;
     }
 
 }
