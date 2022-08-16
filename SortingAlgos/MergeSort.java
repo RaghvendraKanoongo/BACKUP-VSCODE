@@ -12,7 +12,7 @@ public class MergeSort {
     }
     static void mergeSort(int[] arr, int s, int e){
 
-       int m = e/2;
+       int m = (e+s)/2;
        if(s == e){
         return;
        }
