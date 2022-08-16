@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 // package SortingAlgos;
 
 /**
@@ -5,8 +7,8 @@
  */
 public class tempCodeRunnerFile {
 	public static void main(String[] args) {
-		int[] arr = {,9,7,5,3,6};
-
+		int[] arr = {1,3,5,7,9,2,3,6,8};
+		merge(arr, 0, 4, 8);
 	}
 	static int[] merge(int[] arr, int s, int m, int e){
         int[] sortedArr = new int[m+e];
@@ -39,5 +41,6 @@ public class tempCodeRunnerFile {
             sortedArr[k] = arr[j];
             j++;
         }
+		System.out.println(Arrays.toString(sortedArr));
     }
 }
