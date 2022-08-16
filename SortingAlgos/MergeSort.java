@@ -29,8 +29,11 @@ public class MergeSort {
                 k++;
             }
             if(arr[i]>arr[j]){
-                sortedArr
+                sortedArr[k] = arr[j];
+                j++;
+                k++;
             }
+            
         }
     }
 
