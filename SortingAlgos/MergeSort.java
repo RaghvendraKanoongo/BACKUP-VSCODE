@@ -1,3 +1,5 @@
+import Algorithems.SieveOfEratosthenes;
+
 // package SortingAlgos;
 
 public class MergeSort {
@@ -16,7 +18,7 @@ public class MergeSort {
     }
 
     static int[] merge(){
-
+        SieveOfEratosthenes
     }
 
 }
