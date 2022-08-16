@@ -21,9 +21,15 @@ public class MergeSort {
         int[] sortedArr = new int[m+e];
         int i = s;
         int j = m+1;
+        int k = 0;
         while(true){
             if(arr[i]<arr[j]){
-                s
+                sortedArr[k] = arr[i];
+                i++;
+                k++;
+            }
+            if(arr[i]>arr[j]){
+                sortedArr
             }
         }
     }
