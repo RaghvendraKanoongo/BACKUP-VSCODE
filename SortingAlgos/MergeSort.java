@@ -39,7 +39,7 @@ public class MergeSort {
                 j++;
                 k++;
             }
-            
+    
         }
         while(i<=m){
             sortedArr[k] = arr[i];
