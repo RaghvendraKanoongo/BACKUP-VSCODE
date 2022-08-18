@@ -7,7 +7,14 @@ public class tempCodeRunnerFile {
 
     public static void main(String[] args) {
         System.out.println(h(1, 2));
-        int[][] arr = {{},{},{}};
+        int x = 1;
+        int[][] arr = {{12,21},{13,54},{52,63}};
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j <= i; j++) {
+                x = x+arr[i][j];
+            }
+        }
+        System.out.println();
     }
     static int h(int a, int b){
          a = 9;
