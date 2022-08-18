@@ -7,6 +7,7 @@ public class tempCodeRunnerFile {
 
     public static void main(String[] args) {
         System.out.println(h(1, 2));
+        int[][] arr = {{},{},{}};
     }
     static int h(int a, int b){
          a = 9;
