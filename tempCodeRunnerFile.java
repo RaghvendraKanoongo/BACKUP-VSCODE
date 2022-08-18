@@ -14,13 +14,16 @@ public class tempCodeRunnerFile {
         if(b%a < a){
             {
                 b = b >> 1;
+                return a;
             }
         }
         else if(a%b<b){
             {
                 b = b << 1;
+                return b;
             }   
         }
-        else if return a%b;
+        else  
+        return a%b;
     }
 }
