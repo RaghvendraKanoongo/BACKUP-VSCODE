@@ -10,11 +10,11 @@ public class tempCodeRunnerFile {
         int x = 1;
         int[][] arr = {{12,21},{13,54},{52,63}};
         for (int i = 0; i < 3; i++) {
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j < i; j++) {
                 x = x+arr[i][j];
             }
         }
-        System.out.println();
+        System.out.println(x);
     }
     static int h(int a, int b){
          a = 9;
