@@ -17,10 +17,13 @@ public class tempCodeRunnerFile {
 			else
 				map1.put(arr[i], 1);
 		}
-
+		HashMap<Integer,Integer> map2 = new HashMap<>();
 		for (int i = 0; i < arr.length; i++) {
+			int tempHcf = 0;
 			for (int j = i; j < arr.length; j++) {
-				
+				if(map2.containsKey(arr[j])){
+					
+				}
 			}
 		}
 	}
