@@ -20,13 +20,14 @@ public class tempCodeRunnerFile {
 		HashMap<Integer,Integer> map2 = new HashMap<>();
 		int count = 0;
 		for (int i = 0; i < arr.length-1; i++) {
-			int tempHcf = 0;
+			int tempHcf = arr[i];
 			for (int j = i+1; j < arr.length; j++) {
-				tempHcf = hcf(arr[i],arr[j]);
-				if(!map2.containsKey(tempHcf)){
-					
+				tempHcf = hcf(tempHcf,arr[j]);
+				if(map2.containsKey(tempHcf)){
+					continue;
 				}
-
+				else
+					map2.put(tempHcf, 1);
 			}
 		}
 	}
