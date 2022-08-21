@@ -18,16 +18,16 @@ public class tempCodeRunnerFile {
 				map1.put(arr[i], 1);
 		}
 		HashMap<Integer,Integer> map2 = new HashMap<>();
-		for (int i = 0; i < arr.length; i++) {
+		for (int i = 0; i < arr.length-1; i++) {
 			int tempHcf = 0;
-			for (int j = i; j < arr.length; j++) {
+			for (int j = i+1; j < arr.length; j++) {
 				if(map2.containsKey(arr[j])){
-					
+					tempHcf = ();
 				}
 			}
 		}
 	}
-	long hcf(int n1, int n2)
+	static int hcf(int n1, int n2)
 	{
     	if (n2 != 0)
         	return hcf(n2, n1 % n2);
