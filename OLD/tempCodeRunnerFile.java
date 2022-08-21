@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class tempCodeRunnerFile {
 
 	public static void main(String[] args) {
-		int arr[] = {18,6,24,1,5,7,9};
+		int arr[] = {11,11};
 		HashMap<Integer,Integer> map1 = new HashMap<>();
 
 		for (int i = 0; i < arr.length; i++) {
@@ -32,7 +32,8 @@ public class tempCodeRunnerFile {
 				}
 			}
 		}
-		return map1.size()+count;
+		System.out.println(count+map1.size());
+		
 	}
 	static int hcf(int n1, int n2)
 	{
