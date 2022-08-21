@@ -9,10 +9,14 @@ public class tempCodeRunnerFile {
 
 	public static void main(String[] args) {
 		int arr[] = {18,6,24,1};
-		HashMap map1 = new HashMap<>();
-		HashMap map2 = new HashMap<>();
+		HashMap<Integer,Integer> map1 = new HashMap<>();
+		HashMap<Integer,Integer> map2 = new HashMap<>();
+
 		for (int i = 0; i < arr.length; i++) {
-			if(map1.contains(arr[i]))
+			if(map1.containsKey(arr[i]))
+				continue;
+			else
+				map1.put(arr[i], 1);
 		}
 
 	}
