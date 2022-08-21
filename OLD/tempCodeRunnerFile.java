@@ -26,10 +26,13 @@ public class tempCodeRunnerFile {
 				if(map2.containsKey(tempHcf)){
 					continue;
 				}
-				else
+				else{
 					map2.put(tempHcf, 1);
+					count++;
+				}
 			}
 		}
+		return map1.size()+count;
 	}
 	static int hcf(int n1, int n2)
 	{
