@@ -23,7 +23,7 @@ public class tempCodeRunnerFile {
         }
         else if(countEven%2 == 0 && countOdd %2 == 0){
             
-            System.out.println(false);
+            System.out.println(true);
         }
         else 
 		System.out.println(false);
