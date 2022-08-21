@@ -18,12 +18,15 @@ public class tempCodeRunnerFile {
 				map1.put(arr[i], 1);
 		}
 		HashMap<Integer,Integer> map2 = new HashMap<>();
+		int count = 0;
 		for (int i = 0; i < arr.length-1; i++) {
 			int tempHcf = 0;
 			for (int j = i+1; j < arr.length; j++) {
-				if(map2.containsKey(arr[j])){
-					tempHcf = ();
+				tempHcf = hcf(arr[i],arr[j]);
+				if(!map2.containsKey(tempHcf)){
+					
 				}
+
 			}
 		}
 	}
