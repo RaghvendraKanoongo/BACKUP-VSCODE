@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class tempCodeRunnerFile {
 
 	public static void main(String[] args) {
-		int arr[] = {18,6,24,1};
+		int arr[] = {18,6,24,1,4,8};
 		HashMap<Integer,Integer> map1 = new HashMap<>();
 
 		for (int i = 0; i < arr.length; i++) {
