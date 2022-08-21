@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class tempCodeRunnerFile {
 
 	public static void main(String[] args) {
-		HashMap <Integer> map = new
-
+		HashMap map = new HashMap<>();
+		
 	}
 }
