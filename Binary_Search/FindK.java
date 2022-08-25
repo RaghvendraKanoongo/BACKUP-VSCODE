@@ -5,7 +5,10 @@ public class FindK {
         System.out.println("babaji");
         int[] arr = {3,6,9,12,14,19,20,23,25,27};
         int k = 12;
-        int mid = arr[arr.length/2];
+        int low = 0;
+        int high = arr[arr.length-1;
+
+        int mid = low+high/2;
         
     }
 }
