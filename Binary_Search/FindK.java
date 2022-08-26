@@ -10,9 +10,12 @@ public class FindK {
 
         int mid = low+high/2;
         int ans = 0;
-        while(true){
+        while(low <= high){
             if(k > arr[mid]){
-                
+                low = mid+1;
+            }
+            else if(k<arr[mid]){
+                high = mid-1;
             }
         }
     }
