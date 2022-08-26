@@ -17,6 +17,10 @@ public class FindK {
             else if(k<arr[mid]){
                 high = mid-1;
             }
+            if(k == mid){
+                break;
+            }
         }
+        System.out.println("Answer is: "+mid);
     }
 }
