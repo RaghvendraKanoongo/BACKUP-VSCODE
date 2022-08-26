@@ -1,4 +1,4 @@
-package Binary_Search;
+// package Binary_Search
 
 public class FindK {
     public static void main(String[] args) {
@@ -12,10 +12,10 @@ public class FindK {
         int ans = 0;
         while(low <= high){
             if(k > arr[mid]){
-                low = mid+1;
+                low = mid;
             }
             else if(k<arr[mid]){
-                high = mid-1;
+                high = mid;
             }
             if(k == mid){
                 break;
