@@ -9,6 +9,7 @@ public class FindK {
         int high = arr.length-1;
 
         int mid = low+high/2;
-        
+         int ans = 0;
+         
     }
 }
