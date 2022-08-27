@@ -1,4 +1,4 @@
-// package Binary_Search;
+ package Binary_Search;
 
 public class Solution {
     static int[] arr ={0,0,0,0,0,1,1,1,1};
@@ -9,7 +9,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(firstBadVersion(5)); 
+        System.out.println(firstBadVersion(9)); 
     }
 
     static public int firstBadVersion(int n) {

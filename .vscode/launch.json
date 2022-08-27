@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Binary_Search.Solution",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
             "name": "Launch FindK",
             "request": "launch",
             "mainClass": "Binary_Search.FindK",
