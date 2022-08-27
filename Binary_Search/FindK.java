@@ -9,7 +9,16 @@ public class FindK {
         int high = arr.length-1;
         int mid = low+high/2;
         
-            if(arr[mid]<)
+            if(mid == k)
+                return mid;
+            if(mid)
+            if(arr[mid]<k)
+                high = mid;
+            else if(arr[mid]>k)
+                low = mid;
+            mid = (low+high)/2;
+
+
         
         System.out.println("Answer is: "+low);
     }
