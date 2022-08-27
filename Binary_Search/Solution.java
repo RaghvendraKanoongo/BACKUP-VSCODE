@@ -1,7 +1,7 @@
 //  package Binary_Search;
 
 public class Solution {
-    static int[] arr ={0,,1};
+    static int[] arr ={0,0,0};
 
     static boolean isBadVersion(int n){
         if(arr[n]==1)return true;
