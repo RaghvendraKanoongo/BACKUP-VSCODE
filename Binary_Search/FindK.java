@@ -1,4 +1,4 @@
-// package Binary_Search
+package Binary_Search;
 
 public class FindK {
     public static void main(String[] args) {
