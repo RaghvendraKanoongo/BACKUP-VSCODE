@@ -17,13 +17,13 @@ public class Solution {
         int start = 0,end = n-1,mid = (start + end)/2;
         while(end - start >=1 ){
             if(isBadVersion(start+1)){return start + 2;}
-                if(isBadVersion(mid)){
-                 end = mid;
-                }
-                else{
-                    start = mid;
-                }
-                mid = (start + end)/2;
+            if(isBadVersion(mid)){
+                end = mid;
+            }
+            else{
+                start = mid;
+            }
+            mid = (start + end)/2;
         }
         return start+1;
     }
