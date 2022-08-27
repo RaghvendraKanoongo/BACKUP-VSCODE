@@ -42,15 +42,17 @@
 public class tempCodeRunnerFile {
 
     public static void main(String[] args) {
-        int i = 0;
-        while(i++){
-
-        }
+        System.out.println( hi());
     }
     static int hi(){
         int i = 0;
-        while (i) {
-            
+        while (i<100) {
+            if(i == 8)
+                return i;
+            else 
+                i++;
         }
+        System.out.println("hi aayush");
+        return 5;
     }
 }
