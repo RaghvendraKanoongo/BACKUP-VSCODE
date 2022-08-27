@@ -1,9 +1,9 @@
-package Binary_Search;
+// package Binary_Search;
 
 public class FindK {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {3,6,9,12,14,19,20,23,25,27};
+        int[] arr = {12,13,14,16,17};
         int k = 12;
         int low = 0;
         int high = arr.length-1;
@@ -19,9 +19,9 @@ public class FindK {
                 break;
             }
             if(arr[mid]<k)
-                high = mid;
-            else if(arr[mid]>k)
                 low = mid;
+            else if(arr[mid]>k)
+                high = mid;
             mid = (low+high)/2;
         }
     }
