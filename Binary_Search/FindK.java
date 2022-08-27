@@ -8,18 +8,21 @@ public class FindK {
         int low = 0;
         int high = arr.length-1;
         int mid = low+high/2;
-        
-            if(mid == k)
-                return mid;
-            if(mid)
+
+        while(true){
+            if(arr[mid] == k){
+                System.out.println(mid);
+                break;
+            }
+            if(arr[high] == k){
+                System.out.println(high);
+                break;
+            }
             if(arr[mid]<k)
                 high = mid;
             else if(arr[mid]>k)
                 low = mid;
             mid = (low+high)/2;
-
-
-        
-        System.out.println("Answer is: "+low);
+        }
     }
 }
