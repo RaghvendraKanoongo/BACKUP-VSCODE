@@ -7,7 +7,7 @@ public class FindK {
         int k = 12;
         int low = 0;
         int high = arr.length-1;
-        int mid = low+high/2;
+        int mid = (low+high)/2;
 
         while(true){
             if(arr[mid] == k){
