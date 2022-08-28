@@ -1,3 +1,4 @@
+import java.util.LinkedList;
 import java.util.List;
 
 
@@ -69,14 +70,13 @@ public class Temp {
     public static void main(String[] args)
     {
 
-        
-        int i = 5, j = 1;
-        while (i != 0) {
-            head = create_ll(head, j++);
-            i--;
-        }
-        head = ll_reverse(head);
+
+        LinkedList<String> ll = new LinkedList<String>();
+        LinkedList<String> ll = new LinkedList<String>();
     }
 
+    {
+        
+    }
 
 }
