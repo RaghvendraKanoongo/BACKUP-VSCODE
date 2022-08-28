@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Temp {
  
-    public static LinkedList<String> reverseLinkedList(LinkedList<Integer> llist)
+    public static LinkedList<Integer> reverseLinkedList(LinkedList<Integer> llist)
     {
         LinkedList<Integer> revLinkedList = new LinkedList<Integer>();
         for (int i = llist.size() - 1; i >= 0; i--) {
@@ -29,12 +29,13 @@ public class Temp {
         for (int i = 0; i < n; i++) {
             ll1.add(sc.nextInt());
         }
-        for (int i = 0; i < n; i++) {
-            ll2.add(sc.nextInt());
-        }
+        // for (int i = 0; i < n; i++) {
+        //     ll2.add(sc.nextInt());
+        // }
 
-        LinkedList<String> ll = new LinkedList<String>();
         ll1 = reverseLinkedList(ll1);
+        System.out.println(ll1);
+        ll2 = reverseLinkedList(ll2);
         
     }
 
