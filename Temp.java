@@ -1,16 +1,14 @@
 import java.util.List;
 
 
-class Temp {
+public class Temp {
  
-    // Create a class Node to enter values and address in the list
     static class node {
         int val;
         node next;
     };
  
     static node head = null;
-    // code to count the no. of nodes
     static int count(node head)
     {
         node p = head;
@@ -22,7 +20,6 @@ class Temp {
         return k;
     }
  
-    // to reverse the linked list
     static node ll_reverse(node head)
     {
         node p = head;
@@ -34,11 +31,11 @@ class Temp {
             i--;
         }
         j--;
-        while (j != 0) // loop will break as soon as j=0
+        while (j != 0)
             System.out.print(arr[j--] + " ");
         return head;
     }
-    // code to insert at end of ll
+
     static node insert_end(node head, int data)
     {
         node q = head;
@@ -78,3 +75,6 @@ class Temp {
         }
         head = ll_reverse(head);
     }
+
+    
+}
