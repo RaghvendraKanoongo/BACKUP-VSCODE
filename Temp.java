@@ -1,46 +1,87 @@
-/**
- * Temp
- */
-public class Temp {
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
 
-    public static void main(String[] args) {
+
+public class Temp {
+ 
+    static class node {
+        int val;
+        node next;
+    };
+ 
+    static node head = null;
+    static int count(node head)
+    {
+        node p = head;
+        int k = 1;
+        while (p != null) {
+            p = p.next;
+            k++;
+        }
+        return k;
+    }
+ 
+    static node ll_reverse(node head)
+    {
+        node p = head;
+        int i = count(head), j = 1;
+        int[] arr = new int[i];
+        while (i != 0 && p != null) {
+            arr[j++] = p.val;
+            p = p.next;
+            i--;
+        }
+        j--;
+        while (j != 0)
+            System.out.print(arr[j--] + " ");
+        return head;
+    }
+
+    static node insert_end(node head, int data)
+    {
+        node q = head;
+        node p = new node();
+        p.val = data;
+        p.next = null;
+        while (q.next != null)
+            q = q.next;
+        q.next = p;
+        p.next = null;
+        return head;
+    }
+ 
+    // create ll
+    static node create_ll(node head, int data)
+    {
+        node p = new node();
+        p.next = null;
+        p.val = data;
+        if (head == null) {
+            head = p;
+            p.next = null;
+            return head;
+        }
+        else {
+            head = insert_end(head, data);
+            return head;
+        }
+    }
+ 
+    public static void main(String[] args)
+    {
+
+
+        LinkedList<Integer> ll1 = new LinkedList<Integer>();
+        LinkedList<Integer> ll2 = new LinkedList<Integer>();
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            ll1.add(sc.nextInt());
+        }
+        LinkedList<String> ll = new LinkedList<String>();
         
     }
-    public SinglyLinkedList addTwoNumbers(SinglyLinkedList l1, SinglyLinkedList l2) {
-        SinglyLinkedList temp=new SinglyLinkedList(0);
-        SinglyLinkedList res=temp;
-        int carry=0,sum=0;
-        while(l1!=null && l2!=null){
-            sum=l1.val+l2.val+carry;
-            SinglyLinkedList node=new SinglyLinkedList(sum%10);
-            carry=sum/10;
-            l1=l1.next;
-            l2=l2.next;
-            temp.next=node;
-            temp=temp.next;
-        }
-        while(l1!=null){
-            sum=l1.val+carry;
-            SinglyLinkedList node=new SinglyLinkedList(sum%10);
-            carry=sum/10;
-            temp.next=node;
-            temp=temp.next;
-            l1=l1.next;
-        }
-        while(l2!=null){
-            sum=l2.val+carry;
-            SinglyLinkedList node=new SinglyLinkedList(sum%10);
-            carry=sum/10;
-            temp.next=node;
-            temp=temp.next;
-            l2=l2.next;
-        }
-        if(carry==1){
-            SinglyLinkedList node1=new SinglyLinkedList(carry);
-            temp.next=node1;
-            temp=temp.next;
-        }
-        return res.next;
-    }
-}
 
+}
