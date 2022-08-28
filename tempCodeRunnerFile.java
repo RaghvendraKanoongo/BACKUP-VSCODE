@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 // /**
 //  * tempCodeRunnerFile
@@ -44,7 +45,12 @@ import java.util.Map;
  */
 public class tempCodeRunnerFile {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr1 = new int[n];
         
+
         if(areEqual(arr1, arr2, n))
             return 1;
         else 
