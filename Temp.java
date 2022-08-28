@@ -78,8 +78,9 @@ public class Temp {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
-            
+            ll1.add(sc.nextInt());
         }
+        LinkedList<String> ll = new LinkedList<String>();
         
     }
 
