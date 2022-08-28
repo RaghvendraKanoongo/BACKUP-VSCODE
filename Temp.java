@@ -71,8 +71,9 @@ public class Temp {
     {
 
 
-        LinkedList<String> ll = new LinkedList<String>();
-        LinkedList<String> ll = new LinkedList<String>();
+        LinkedList<Integer> ll1 = new LinkedList<Integer>();
+        LinkedList<Integer> ll2 = new LinkedList<Integer>();
+        
     }
 
     {
