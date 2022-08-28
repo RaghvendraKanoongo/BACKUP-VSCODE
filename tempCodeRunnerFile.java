@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 // /**
 //  * tempCodeRunnerFile
 //  */
@@ -41,18 +43,50 @@
  */
 public class tempCodeRunnerFile {
 
-    public static void main(String[] args) {
-        System.out.println( hi());
-    }
-    static int hi(){
-        int i = 0;
-        while (i<100) {
-            if(i == 8)
-                return i;
-            else 
-                i++;
+    public static boolean areEqual(int arr1[], int arr2[])
+    {
+        int N = arr1.length;
+        int M = arr2.length;
+ 
+        // If lengths of arrays are not equal
+        if (N != M)
+            return false;
+ 
+        // Store arr1[] elements and their counts in
+        // hash map
+        Map<Integer, Integer> map
+            = new HashMap<Integer, Integer>();
+        int count = 0;
+        for (int i = 0; i < N; i++) {
+            if (map.get(arr1[i]) == null)
+                map.put(arr1[i], 1);
+            else {
+                count = map.get(arr1[i]);
+                count++;
+                map.put(arr1[i], count);
+            }
         }
-        System.out.println("hi aayush");
-        return 5;
+ 
+        // Traverse arr2[] elements and check if all
+        // elements of arr2[] are present same number
+        // of times or not.
+        for (int i = 0; i < N; i++) {
+ 
+            // If there is an element in arr2[], but
+            // not in arr1[]
+            if (!map.containsKey(arr2[i]))
+                return false;
+ 
+            // If an element of arr2[] appears more
+            // times than it appears in arr1[]
+            if (map.get(arr2[i]) == 0)
+                return false;
+ 
+            count = map.get(arr2[i]);
+            --count;
+            map.put(arr2[i], count);
+        }
+ 
+        return true;
     }
 }
