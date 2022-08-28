@@ -49,15 +49,26 @@ public class tempCodeRunnerFile {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr1 = new int[n];
-        
+        int[] arr2 = new int[n];
+
+        for (int i = 0; i < arr1.length; i++) {
+            arr1[i] = sc.nextInt();
+        }
+        for (int i = 0; i < arr1.length; i++) {
+            arr2[i] = sc.nextInt();
+        }
+
+        solve(arr1, arr2, n);
+
+    }
+
+    static int solve(int[] arr1, int[] arr2, int n){
 
         if(areEqual(arr1, arr2, n))
             return 1;
         else 
             return 0;
-
     }
-
     public static boolean areEqual(int arr1[], int arr2[], int n)
     {
         int N = arr1.length;
