@@ -37,6 +37,8 @@ public class Temp {
         System.out.println(ll1);
         ll2 = reverseLinkedList(ll2);
         
+
+        
     }
 
 }
