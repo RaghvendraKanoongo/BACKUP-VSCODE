@@ -9,7 +9,7 @@ public class Lemda {
                 sysout("this is show "+i);
             }
         }
-        */
+        */ 
         DemoLemda obj = (i) -> System.out.println("This is Show "+i);
         
         obj.show(5);
