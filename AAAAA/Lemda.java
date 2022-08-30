@@ -2,11 +2,8 @@
 
 public class Lemda {
     public static void main(String[] args) {
-        DemoLemda obj = new DemoLemda() {
-            public void show() {
-               System.out.println("This is Show");
-            }
-        };
+        DemoLemda obj = () -> System.out.println("This is Show");
+         
         obj.show();
     }
 }
@@ -15,4 +12,5 @@ public class Lemda {
 
 interface DemoLemda {
     void show();
+    void 
 }
