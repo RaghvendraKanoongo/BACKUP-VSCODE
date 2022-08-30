@@ -5,6 +5,7 @@ public class UnderstandingInterf {
         System.out.println("pran nath babaji");
         // PP pp = new PP();
         // pp.hola();
+        A obj = new A();
 
     }
     // static final a;
