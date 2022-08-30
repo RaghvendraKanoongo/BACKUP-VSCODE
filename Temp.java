@@ -39,3 +39,9 @@ public class Temp {
     }
 
 }
+class A1{
+    int a = 1;
+}
+class B extends A1{
+     int a = 2;
+}
