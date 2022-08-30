@@ -1,3 +1,5 @@
+import java.util.function.Consumer;
+
 // package AAAAA;
 
 public class Lemda {
@@ -9,7 +11,8 @@ public class Lemda {
                 sysout("this is show "+i);
             }
         }
-        */ 
+        */
+        Consumer 
         DemoLemda obj = (i) -> System.out.println("This is Show "+i);
         
         obj.show(5);
