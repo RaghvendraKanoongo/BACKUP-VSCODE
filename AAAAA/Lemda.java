@@ -12,5 +12,5 @@ public class Lemda {
 
 interface DemoLemda {
     void show();
-    void 
+ 
 }
