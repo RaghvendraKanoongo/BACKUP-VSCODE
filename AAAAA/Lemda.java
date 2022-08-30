@@ -5,20 +5,20 @@ public class Lemda {
 
         /*
         new DemoLemda(){
-            void show(){
-                sysout("this is show");
+            void show(int i){
+                sysout("this is show "+i);
             }
         }
         */
-        DemoLemda obj = () -> System.out.println("This is Show");
+        DemoLemda obj = (i) -> System.out.println("This is Show "+i);
         
-        obj.show();
+        obj.show(5);
     }
 }
 
 
 
 interface DemoLemda {
-    void show();
+    void show(int i);
  
 }
