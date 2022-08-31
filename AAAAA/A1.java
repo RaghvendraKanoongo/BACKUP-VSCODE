@@ -4,18 +4,21 @@ public class A1 {
     
     public static void main(String[] args) {
         A1 a1 = new A1();
-        a1.m1(123.3f);
+
     }
-    static void m1(int i){
-        System.out.println("inside int");
-    }
-    static void m1(float i){
-        System.out.println("inside float");
-    }
+     
 }
 class A{
-    void m1(int i){
-        System.out.println("");
+    A(){
+        this(2);
+        System.out.println("no arg");
+    }
+    A(int a){
+        this
+        System.out.println("int arg ");
+    }
+    A(double d){
+        System.out.println("double arg");
     }
 
 }
