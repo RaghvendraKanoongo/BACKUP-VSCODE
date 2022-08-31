@@ -10,7 +10,7 @@ public class A1 {
     public static int m1(){
         int a = 8;
         double d = 7.4;
-        
+        a = (int)d;
     }
      
 }
