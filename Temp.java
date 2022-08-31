@@ -28,5 +28,3 @@ interface InnerTemp {
 
     
 }
-
-class A333 extends 
