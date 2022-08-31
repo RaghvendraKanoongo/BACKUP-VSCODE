@@ -35,6 +35,13 @@ public class Temp {
         ll1 = reverseLinkedList(ll1);
         System.out.println(ll1);
         ll2 = reverseLinkedList(ll2);
+
+
+        m1(a, b);
+    }
+
+    static void m1(int a, boolean b){
+        System.out.println("you are inside the m1 method");
     }
 
 }
