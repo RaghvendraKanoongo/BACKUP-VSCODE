@@ -3,18 +3,18 @@
 public class A1 {
     
     public static void main(String[] args) {
-        A1 a1 = new A1();
+        A a1 = new A();
 
     }
      
 }
 class A{
     A(){
-        this(2);
+        this();
         System.out.println("no arg");
     }
     A(int a){
-        this
+        this(3.5);
         System.out.println("int arg ");
     }
     A(double d){
