@@ -8,8 +8,9 @@ public class A1 {
     // }
     static int i = m1();
     public static int m1(){
-        System.out.println("hi");
-        return 1;
+        int a = 8;
+        double d = 7.4;
+        
     }
      
 }
