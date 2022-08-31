@@ -20,3 +20,13 @@ public class Temp {
         }
     }
 }
+
+/**
+ * InnerTemp
+ */
+interface InnerTemp {
+
+    
+}
+
+class A333 extends 
