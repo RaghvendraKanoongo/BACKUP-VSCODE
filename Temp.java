@@ -36,8 +36,9 @@ public class Temp {
         System.out.println(ll1);
         ll2 = reverseLinkedList(ll2);
 
+        static int a2 = 10;
 
-        m1(10, b);
+
     }
 
     static void m1(int a, boolean b){
