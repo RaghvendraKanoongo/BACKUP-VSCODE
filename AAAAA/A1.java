@@ -10,7 +10,7 @@ public class A1 {
 }
 class A{
     A(){
-        this();
+        this(2);
         System.out.println("no arg");
     }
     A(int a){
@@ -18,6 +18,7 @@ class A{
         System.out.println("int arg ");
     }
     A(double d){
+        // this();
         System.out.println("double arg");
     }
 
