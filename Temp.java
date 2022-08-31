@@ -37,7 +37,7 @@ public class Temp {
         ll2 = reverseLinkedList(ll2);
 
 
-        m1(a, b);
+        m1(10, b);
     }
 
     static void m1(int a, boolean b){
