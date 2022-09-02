@@ -4,9 +4,10 @@
 public class Temp {
 
     public static void main(String[] args) {
-        int a = 10.;
-        int b = 20;
-       cal(a,b);
+        int a = 10;
+
+        double b = 20.789749283;
+        cal(a,b);
     } 
 
     static void cal(int a, int b){
