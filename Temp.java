@@ -11,6 +11,7 @@ public class Temp {
     static void cal(int a, int b){
         System.out.println(a+b);
     }
+    
     static void pal(){
         System.out.println(a+b);
     }
