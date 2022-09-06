@@ -1,6 +1,3 @@
-/**
- * Temp
- */
 public class Temp {
-    
+
 }
