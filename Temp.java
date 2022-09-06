@@ -2,6 +2,5 @@
  * Temp
  */
 public class Temp {
-
     
 }
