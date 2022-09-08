@@ -7,10 +7,16 @@ public class FindK {
         int k = 12;
         int low = 0;
         int high = arr.length-1;
-        int mid = (low/2+high/2);
+        int mid = (low/2)+(high/2);
 
         while (true) {
-            
+            if(arr[mid]>k){
+                high = mid-1;
+            }
+            else {
+                low = mid+1;
+            }
+
         }
     }
 }
