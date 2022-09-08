@@ -16,7 +16,6 @@ public class FindK {
             else {
                 low = mid+1;
             }
-
         }
     }
 }
