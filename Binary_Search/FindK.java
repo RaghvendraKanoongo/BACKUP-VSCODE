@@ -3,8 +3,8 @@
 public class FindK {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {5};
-        int k = 5;
+        int[] arr = {2,5};
+        int k = 0;
         int low = 0;
         int high = arr.length-1;
         int mid = (low/2)+(high/2);
@@ -18,7 +18,7 @@ public class FindK {
                 System.out.println(mid);
                 break;
             }
-            if(high == low && low != k){
+            if(high == low && arr[low] != k){
                 break;
             }
             if(arr[mid]>k){
@@ -29,5 +29,6 @@ public class FindK {
             }
             mid = (low/2)+(high/2);
         }
+        System.out.println(-1);
     }
 }
