@@ -1,10 +1,10 @@
- package Binary_Search;
+//  package Binary_Search;
 
 public class FindK {
     public static void main(String[] args) {
         System.out.println("babaji");
         int[] arr = {12,13,14,16,17};
-        int k = 12;
+        int k = 17;
         int low = 0;
         int high = arr.length-1;
         int mid = (low/2)+(high/2);
@@ -12,13 +12,10 @@ public class FindK {
         while (true) {
             if(high == low){
                 System.out.println(low);
-                i++;
-                System.out.println(i);
                 break;
             }
-            if(mid  == k){
+            if(arr [mid]  == k){
                 System.out.println(mid);
-                System.out.println("in mid");
                 break;
             }
             if(arr[mid]>k){
