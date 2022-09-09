@@ -18,6 +18,9 @@ public class FindK {
                 System.out.println(mid);
                 break;
             }
+            if(high == low && low != k){
+                break;
+            }
             if(arr[mid]>k){
                 high = mid-1;
             }
