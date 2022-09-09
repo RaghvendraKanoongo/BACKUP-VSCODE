@@ -10,10 +10,13 @@ public class FindK {
         int mid = (low/2)+(high/2);
 
         while (true) {
-            if(high == low)
+            if(high == low){
                 System.out.println(low);
+                break;
+            }
             if(mid  == k){
                 System.out.println(mid);
+                break;
             }
             if(arr[mid]>k){
                 high = mid-1;
@@ -21,6 +24,7 @@ public class FindK {
             else {
                 low = mid+1;
             }
+            mid = (low/2)+(high/2);
         }
     }
 }
