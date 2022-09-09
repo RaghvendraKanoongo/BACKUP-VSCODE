@@ -1,4 +1,4 @@
-// package Binary_Search;
+ package Binary_Search;
 
 public class FindK {
     public static void main(String[] args) {
@@ -8,10 +8,12 @@ public class FindK {
         int low = 0;
         int high = arr.length-1;
         int mid = (low/2)+(high/2);
-
+        int i = 0;
         while (true) {
             if(high == low){
                 System.out.println(low);
+                i++;
+                System.out.println(i);
                 break;
             }
             if(mid  == k){
