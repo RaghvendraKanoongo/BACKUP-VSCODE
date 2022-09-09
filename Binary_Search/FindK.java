@@ -16,6 +16,7 @@ public class FindK {
             }
             if(mid  == k){
                 System.out.println(mid);
+                System.out.println("in mid");
                 break;
             }
             if(arr[mid]>k){
