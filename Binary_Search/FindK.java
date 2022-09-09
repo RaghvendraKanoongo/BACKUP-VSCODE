@@ -10,6 +10,8 @@ public class FindK {
         int mid = (low/2)+(high/2);
 
         while (true) {
+            if(high == low)
+                System.out.println(low);
             if(arr[mid]>k){
                 high = mid-1;
             }
