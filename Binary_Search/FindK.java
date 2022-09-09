@@ -12,6 +12,9 @@ public class FindK {
         while (true) {
             if(high == low)
                 System.out.println(low);
+            if(mid  == k){
+                System.out.println(mid);
+            }
             if(arr[mid]>k){
                 high = mid-1;
             }
