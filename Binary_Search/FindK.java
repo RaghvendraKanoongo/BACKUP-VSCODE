@@ -22,7 +22,7 @@ public class FindK {
                 break;
             }
             if(arr[mid]>k){
-                high = mid-1;
+                high = mid;
             }
             else {
                 low = mid+1;
