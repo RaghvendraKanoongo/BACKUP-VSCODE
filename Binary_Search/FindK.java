@@ -3,8 +3,8 @@
 public class FindK {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {12,13,14,16,17};
-        int k = 17;
+        int[] arr = {5};
+        int k = 5;
         int low = 0;
         int high = arr.length-1;
         int mid = (low/2)+(high/2);
