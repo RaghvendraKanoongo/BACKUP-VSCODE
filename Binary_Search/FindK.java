@@ -2,7 +2,7 @@
 
 public class FindK {
     public static void main(String[] args) {
-        System.out.println("babaji");
+        System.err.println("babaji");
         int[] arr = {2,5};
         int k = 0;
         int low = 0;
@@ -11,11 +11,11 @@ public class FindK {
         int i = 0;
         while (true) {
             if(high == low){
-                System.out.println(low);
+                System.err.println(low);
                 break;
             }
             if(arr [mid]  == k){
-                System.out.println(mid);
+                System.err.println(mid);
                 break;
             }
             if(high == low && arr[low] != k){
