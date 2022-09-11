@@ -2,7 +2,11 @@ class Temp {
     public static void main(String[] args) {
         // System.out.println( funn(7, 5));
 
-        int a,b,c;
+        int a = 5,b = 2,c = 4;
+        for (int i = 3; i < 6; i++) {
+            a = (b+c)+c
+        }
+
     }
     static int funn(int a, int b){
         if((3&b )>(b-3) && (b-a )>(6-a)){
