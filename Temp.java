@@ -4,8 +4,12 @@ class Temp {
 
         int a = 5,b = 2,c = 4;
         for (int i = 3; i < 6; i++) {
-            a = (b+c)+c
+            a = (b+c)+b;
         }
+        for (int i = 3; i < 6; i++) {
+            a = c+c;
+        }
+        System.out.println(a+b);
 
     }
     static int funn(int a, int b){
