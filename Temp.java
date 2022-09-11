@@ -2,14 +2,7 @@ class Temp {
     public static void main(String[] args) {
         // System.out.println( funn(7, 5));
 
-        int a = 5,b = 2,c = 4;
-        for (int i = 3; i < 6; i++) {
-            a = (b+c)+b;
-        }
-        for (int i = 3; i < 6; i++) {
-            a = c+c;
-        }
-        System.out.println(a+b);
+        int p = 6, q = 3, r = 
 
     }
     static int funn(int a, int b){
