@@ -1,6 +1,8 @@
 class Temp {
     public static void main(String[] args) {
-        System.out.println( funn(7, 5));
+        // System.out.println( funn(7, 5));
+
+        int a,b,c;
     }
     static int funn(int a, int b){
         if((3&b )>(b-3) && (b-a )>(6-a)){
@@ -10,6 +12,6 @@ class Temp {
             return 1+funn(a+1,b+2)+2;
         }
         else 
-        return a+1;
+        return a+b-1;
     }
 }
