@@ -2,7 +2,7 @@ class Temp {
     public static void main(String[] args) {
         // System.out.println( funn(7, 5));
 
-        int p = 6, q = 3, r = 
+
 
     }
     static int funn(int a, int b){
