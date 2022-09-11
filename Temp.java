@@ -3,10 +3,11 @@ class Temp {
         System.out.println( funn(7, 5));
     }
     static int funn(int a, int b){
-        if((b^a )<(a+b ) && (b-a )<(a-b)){
-            b = a+2;
-            a = 2+3+b;
-            return a+b+funn(b,a)-a;
+        if((3&b )>(b-3) && (b-a )>(6-a)){
+            b = b+2;
+            a = (a+3)+b;
+            a = (b+1)+b;
+            return 1+funn(a+1,b+2)+2;
         }
         else 
         return a+1;
