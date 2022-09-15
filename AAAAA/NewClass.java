@@ -25,6 +25,7 @@ class Parent{
         System.out.println("hi from Parent");
     }
 }
+
 class Child extends Parent{
     int a;
 
