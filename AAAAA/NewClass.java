@@ -2,15 +2,20 @@
 
 public class NewClass {
     public static void main(String[] args) {
-        
+        Parent p1 = new Parent();
+        p1.sayHi();
+        Child c1 = new Child();
+        c1.
     }
 }
 
 class Parent{
     void sayHi(){
-        sysout
+        System.out.println("hi from Parent");
     }
 }
-class Child{
-
+class Child extends Parent{
+    void sayHi(){
+        System.out.println("hi from Child");
+    }
 }
