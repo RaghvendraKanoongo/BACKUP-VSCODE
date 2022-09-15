@@ -3,9 +3,10 @@
 public class A1 {
     
     // public static void main(String[] args) {
-        //     A a1 = new A();
 
+       //     A a1 = new A();
     // }
+
     static int i = m1();
     public static int m1(){
         int a = 8;
