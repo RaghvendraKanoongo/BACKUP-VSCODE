@@ -5,7 +5,8 @@ public class NewClass {
         Parent p1 = new Parent();
         p1.sayHi();
         Child c1 = new Child();
-        c1.
+        c1.sayHi();
+        Parent p3 = new Child();
     }
 }
 
@@ -15,7 +16,11 @@ class Parent{
     }
 }
 class Child extends Parent{
+    int a;
     void sayHi(){
         System.out.println("hi from Child");
+    }
+    void inChild(){
+        sysout
     }
 }
