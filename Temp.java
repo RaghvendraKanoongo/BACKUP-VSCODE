@@ -1,6 +1,9 @@
+import java.util.HashMap;
+
 class Temp {
     public static void main(String[] args) {
         // System.out.println( funn(7, 5));
+        HashMap
     }
     static int funn(int a, int b){
         if((3&b )>(b-3) && (b-a )>(6-a)){
@@ -11,5 +14,15 @@ class Temp {
         }
         else 
             return a+b-1;
+
+            arr1[] //hasmap insertion (n)
+            arr2[] //
+
+            for (int i = 0; i < arr2.length; i++) {
+                if(map.contains(arr2[i])){
+                    cout++;
+                }
+            }
     }
 }
+
