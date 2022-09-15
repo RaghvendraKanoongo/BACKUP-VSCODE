@@ -1,6 +1,14 @@
 // classpackage AAAAA;
 
 public class NewClass {
+    // static {
+    //     int ee = 99;
+    // }
+
+    // {
+
+
+    // }
     public static void main(String[] args) {
         // Parent p1 = new Parent();
         // p1.sayHi();
@@ -10,6 +18,7 @@ public class NewClass {
         p3.sayHi();
 
     }
+    
 }
 
 class Parent{
