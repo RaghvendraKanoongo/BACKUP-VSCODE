@@ -14,8 +14,9 @@ public class NewClass {
         // p1.sayHi();
         // Child c1 = new Child();
         // c1.sayHi();
-        Parent p3 = new Child();
+        Child p3 = new Parent();
         p3.sayHi();
+
 
     }
     
