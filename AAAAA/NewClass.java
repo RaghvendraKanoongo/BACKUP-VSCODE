@@ -16,8 +16,6 @@ public class NewClass {
         // c1.sayHi();
         Child p3 = new Parent();
         p3.sayHi();
-
-
     }
     
 }
@@ -34,7 +32,7 @@ class Child extends Parent{
         System.out.println("hi from Child");
     }
 
-    // void inChild(){
-    //     System.out.println("i am a child");
-    // }
+    void inChild(){
+        System.out.println("i am a child");
+    }
 }
