@@ -2,24 +2,28 @@
 
 public class A1 {
     
-    // public static void main(String[] args) {
-
-       //     A a1 = new A();
-    // }
+  
     final int a;
 
     A1(int a){
         this.a = a;
     }
-    
-    static int i = m1();
-    public static int m1(){
-        int a = 8;
-        double d = 7.4;
-        a = (int)d;
+
+
+    public static void main(String... args){
+        A1 a1 = new A1(12);
+        System.out.println(a1.a);
+        A1 a2 = new A1(13);
+        System.out.println(a1.a);
+        System.out.println(a2.a);
+
     }
      
 }
+
+
+
+
 class A{
     A(){
         this(2);
