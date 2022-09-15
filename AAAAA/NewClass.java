@@ -8,6 +8,7 @@ public class NewClass {
         c1.sayHi();
         Parent p3 = new Child();
         p3.sayHi();
+        
     }
 }
 
