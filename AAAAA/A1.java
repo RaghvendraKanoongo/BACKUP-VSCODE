@@ -3,7 +3,7 @@
 public class A1 {
     
   
-    final int a;
+    static final int a;
 
     A1(int a){
         this.a = a;
@@ -14,6 +14,10 @@ public class A1 {
         A1 a1 = new A1(12);
         System.out.println(a1.a);
         A1 a2 = new A1(13);
+        System.out.println(a1.a);
+        System.out.println(a2.a);
+        a2.a = 88;
+
         System.out.println(a1.a);
         System.out.println(a2.a);
 
