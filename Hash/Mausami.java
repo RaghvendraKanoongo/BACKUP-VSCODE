@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 public class Mausami {
 
@@ -15,6 +15,8 @@ public class Mausami {
 
         HashMap<Character, Integer> Amap = new HashMap<>();
         HashMap<Character, Integer> Bmap = new HashMap<>();
+
+        
 
         for (char i = 'a'; i <= 'z'; i++) {
             Amap.put(i, 0);
