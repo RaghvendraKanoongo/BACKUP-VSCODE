@@ -6,7 +6,11 @@ public class A1 {
 
        //     A a1 = new A();
     // }
-    final int a = 99;
+    final int a;
+
+    A1(int a){
+        this.a = a;
+    }
     
     static int i = m1();
     public static int m1(){
