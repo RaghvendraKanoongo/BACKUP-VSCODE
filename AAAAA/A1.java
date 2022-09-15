@@ -6,7 +6,8 @@ public class A1 {
 
        //     A a1 = new A();
     // }
-
+    final int a = 99;
+    
     static int i = m1();
     public static int m1(){
         int a = 8;
