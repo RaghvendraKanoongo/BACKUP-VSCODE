@@ -5,7 +5,7 @@ public class CountFrequency {
         System.out.println("babaji");
     }
     static int[] count(){
-        
+        image.png
         return new int[4];
     }
 }
