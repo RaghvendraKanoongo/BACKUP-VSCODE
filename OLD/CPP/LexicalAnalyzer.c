@@ -2,14 +2,16 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+int count = 0;
 bool isDelimiter(char ch)
 {
 	if (ch == ' ' || ch == '+' || ch == '-' || ch == '*' ||
 		ch == '/' || ch == ',' || ch == ';' || ch == '>' ||
 		ch == '<' || ch == '=' || ch == '(' || ch == ')' ||
-		ch == '[' || ch == ']' || ch == '{' || ch == '}')
-		return (true);
+		ch == '[' || ch == ']' || ch == '{' || ch == '}'){
+			count++;
+		return (true);}
+		
 	return (false);
 }
 
@@ -18,7 +20,9 @@ bool isOperator(char ch)
 	if (ch == '+' || ch == '-' || ch == '*' ||
 		ch == '/' || ch == '>' || ch == '<' ||
 		ch == '=')
-		return (true);
+		{
+			count++;
+		return (true);}
 	return (false);
 }
 
