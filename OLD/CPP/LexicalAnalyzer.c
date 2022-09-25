@@ -33,7 +33,8 @@ bool validIdentifier(char* str)
 		str[0] == '6' || str[0] == '7' || str[0] == '8' ||
 		str[0] == '9' || isDelimiter(str[0]) == true)
 		return (false);
-	return (true);
+			count++;
+		return (true);
 }
 
 // Returns 'true' if the string is a KEYWORD.
@@ -51,7 +52,9 @@ bool isKeyword(char* str)
 		|| !strcmp(str, "switch") || !strcmp(str, "unsigned")
 		|| !strcmp(str, "void") || !strcmp(str, "static")
 		|| !strcmp(str, "struct") || !strcmp(str, "goto"))
-		return (true);
+{
+			count++;
+		return (true);}
 	return (false);
 }
 
@@ -68,7 +71,9 @@ bool isInteger(char* str)
 			&& str[i] != '9' || (str[i] == '-' && i > 0))
 			return (false);
 	}
-	return (true);
+	
+		count++;
+		return (true);
 }
 
 bool isRealNumber(char* str)
@@ -152,7 +157,7 @@ int main()
 	char str[100] = "int a = b + 1c; ";
 
 	parse(str); 
-
+	printf("%d",count);
 	return (0);
 }
 
