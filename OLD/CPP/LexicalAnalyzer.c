@@ -3,7 +3,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-// Returns 'true' if the character is a DELIMITER.
 bool isDelimiter(char ch)
 {
 	if (ch == ' ' || ch == '+' || ch == '-' || ch == '*' ||
@@ -14,7 +13,6 @@ bool isDelimiter(char ch)
 	return (false);
 }
 
-// Returns 'true' if the character is an OPERATOR.
 bool isOperator(char ch)
 {
 	if (ch == '+' || ch == '-' || ch == '*' ||
@@ -24,7 +22,6 @@ bool isOperator(char ch)
 	return (false);
 }
 
-// Returns 'true' if the string is a VALID IDENTIFIER.
 bool validIdentifier(char* str)
 {
 	if (str[0] == '0' || str[0] == '1' || str[0] == '2' ||
@@ -54,7 +51,6 @@ bool isKeyword(char* str)
 	return (false);
 }
 
-// Returns 'true' if the string is an INTEGER.
 bool isInteger(char* str)
 {
 	int i, len = strlen(str);
@@ -71,7 +67,6 @@ bool isInteger(char* str)
 	return (true);
 }
 
-// Returns 'true' if the string is a REAL NUMBER.
 bool isRealNumber(char* str)
 {
 	int i, len = strlen(str);
@@ -105,7 +100,6 @@ char* subString(char* str, int left, int right)
 	return (subStr);
 }
 
-// Parsing the input STRING.
 void parse(char* str)
 {
 	int left = 0, right = 0;
@@ -147,13 +141,13 @@ void parse(char* str)
 	return;
 }
 
-// DRIVER FUNCTION
+
 int main()
 {
-	// maximum length of string is 100 here
+
 	char str[100] = "int a = b + 1c; ";
 
-	parse(str); // calling the parse function
+	parse(str); 
 
 	return (0);
 }
