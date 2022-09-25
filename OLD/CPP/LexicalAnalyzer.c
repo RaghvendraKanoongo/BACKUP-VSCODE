@@ -154,7 +154,7 @@ void parse(char* str)
 int main()
 {
 
-	char str[100] = "int a = b + 1c; ";
+	char str[100] = "int Raghavendra = 100; ";
 
 	parse(str); 
 	printf("%d",count);
