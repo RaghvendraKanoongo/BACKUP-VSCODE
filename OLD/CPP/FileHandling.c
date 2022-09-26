@@ -3,13 +3,8 @@ int main()
 {
     FILE *fp;
     char ch;
-
-    
-
-    fp = fopen("Raghav.txt", "w");
-    fprintf(fp, "Hello file by fprintf...\n");
-    fclose(fp);
-    fp = fopen("Raghav.txt", "r");
+    // opening file in read mode
+    fp = fopen("main.txt", "r");
     while (1)
     {
         ch = fgetc(fp);
@@ -17,6 +12,10 @@ int main()
             break;
         printf("%c", ch);
     }
+    fclose(fp);
+    // writing to file in write mode
+    fp = fopen("main.txt", "w");
+    fprintf(fp, "Hello file by fprintf...\n");
     fclose(fp);
     return 0;
 }
