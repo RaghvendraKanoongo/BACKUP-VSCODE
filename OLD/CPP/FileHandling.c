@@ -3,7 +3,7 @@ int main()
 {
     FILE *fp;
     char ch;
-
+  
     fp = fopen("Raghav.txt", "r");
     while (1)
     {
@@ -14,8 +14,8 @@ int main()
     }
     fclose(fp);
 
-    fp = fopen("main.txt", "w");
-    fprintf(fp, "Hello file by fprintf...\n");
-    fclose(fp);
-    return 0;
+    // fp = fopen("Raghav.txt", "w");
+    // fprintf(fp, "Hello file by fprintf...\n");
+    // fclose(fp);
+    // return 0;
 }
