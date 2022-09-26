@@ -1,4 +1,1 @@
-void main(){
-    int Raghvendra = 10;
-    int Kanoongo = 44;
-}
+int a = 100;
