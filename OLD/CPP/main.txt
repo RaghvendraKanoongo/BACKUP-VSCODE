@@ -1,5 +1,1 @@
------------------
-WLECOME!
-YOU ARE INSIDE main.txt
-HAVE A NICE DAY 
------------------
+Hello file by fprintf...
