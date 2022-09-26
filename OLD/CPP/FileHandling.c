@@ -13,9 +13,4 @@ int main()
         printf("%c", ch);
     }
     fclose(fp);
-
-    // fp = fopen("Raghav.txt", "w");
-    // fprintf(fp, "Hello file by fprintf...\n");
-    // fclose(fp);
-    // return 0;
 }
