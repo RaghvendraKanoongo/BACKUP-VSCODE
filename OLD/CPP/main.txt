@@ -1,4 +1,1 @@
-----------------
-Welcome!
-You are inside main.txt
-----------------
+Hello file by fprintf...
