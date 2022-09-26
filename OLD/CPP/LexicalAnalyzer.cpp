@@ -62,6 +62,6 @@ int main()
         }
     }
     fin.close();
-    cout << "Number of Token = " << counts << endl;
+   
     return 0;
 }
