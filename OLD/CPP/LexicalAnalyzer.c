@@ -8,9 +8,9 @@ bool isDelimiter(char ch)
 	if (ch == ' ' || ch == '+' || ch == '-' || ch == '*' ||
 		ch == '/' || ch == ',' || ch == ';' || ch == '>' ||
 		ch == '<' || ch == '=' || ch == '(' || ch == ')' ||
-		ch == '[' || ch == ']' || ch == '{' || ch == '}'){
-			count++;
-		return (true);}
+		ch == '[' || ch == ']' || ch == '{' || ch == '}')
+		
+		return (true);
 		
 	return (false);
 }
@@ -20,9 +20,9 @@ bool isOperator(char ch)
 	if (ch == '+' || ch == '-' || ch == '*' ||
 		ch == '/' || ch == '>' || ch == '<' ||
 		ch == '=')
-		{
-			count++;
-		return (true);}
+		
+
+		return (true);
 	return (false);
 }
 
@@ -33,7 +33,7 @@ bool validIdentifier(char* str)
 		str[0] == '6' || str[0] == '7' || str[0] == '8' ||
 		str[0] == '9' || isDelimiter(str[0]) == true)
 		return (false);
-			count++;
+
 		return (true);
 }
 
@@ -52,9 +52,8 @@ bool isKeyword(char* str)
 		|| !strcmp(str, "switch") || !strcmp(str, "unsigned")
 		|| !strcmp(str, "void") || !strcmp(str, "static")
 		|| !strcmp(str, "struct") || !strcmp(str, "goto"))
-{
-			count++;
-		return (true);}
+
+		return (true);
 	return (false);
 }
 
@@ -128,8 +127,9 @@ void parse(char* str)
 				|| (right == len && left != right)) {
 			char* subStr = subString(str, left, right - 1);
 
-			if (isKeyword(subStr) == true)
+			if (isKeyword(subStr) == true){
 				printf("'%s' IS A KEYWORD\n", subStr);
+			}
 
 			else if (isInteger(subStr) == true)
 				printf("'%s' IS AN INTEGER\n", subStr);
