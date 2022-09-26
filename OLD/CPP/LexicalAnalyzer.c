@@ -71,7 +71,6 @@ bool isInteger(char* str)
 			return (false);
 	}
 	
-		count++;
 		return (true);
 }
 
@@ -127,19 +126,18 @@ void parse(char* str)
 				|| (right == len && left != right)) {
 			char* subStr = subString(str, left, right - 1);
 
-			if (isKeyword(subStr) == true){
-				printf("'%s' IS A KEYWORD\n", subStr);
-			}
-
+			if (isKeyword(subStr) == true)
+				count++;
+			
 			else if (isInteger(subStr) == true)
-				printf("'%s' IS AN INTEGER\n", subStr);
+				count++;
 
 			else if (isRealNumber(subStr) == true)
-				printf("'%s' IS A REAL NUMBER\n", subStr);
+				count++;
 
 			else if (validIdentifier(subStr) == true
 					&& isDelimiter(str[right - 1]) == false)
-				printf("'%s' IS A VALID IDENTIFIER\n", subStr);
+				count++;
 
 			else if (validIdentifier(subStr) == false
 					&& isDelimiter(str[right - 1]) == false)
