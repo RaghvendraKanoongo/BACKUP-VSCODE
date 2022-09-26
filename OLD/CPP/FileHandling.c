@@ -6,10 +6,7 @@ int main()
 
     
 
-    fp = fopen("main.txt", "w");
-    fprintf(fp, "Hello file by fprintf...\n");
-    fclose(fp);
-    fp = fopen("main.txt", "r");
+   fp = fopen("main.txt", "r");
     while (1)
     {
         ch = fgetc(fp);
@@ -18,5 +15,4 @@ int main()
         printf("%c", ch);
     }
     fclose(fp);
-    return 0;
 }
