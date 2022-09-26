@@ -1,1 +1,1 @@
-main
+    // writing to file in write mode
