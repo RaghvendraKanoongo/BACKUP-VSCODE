@@ -1,163 +1,67 @@
-#include <stdbool.h>
-#include <stdio.h>
-#include <string.h>
+#include <iostream>
+#include <fstream>
 #include <stdlib.h>
-int count = 0;
-bool isDelimiter(char ch)
+#include <string.h>
+#include <ctype.h>
+
+using namespace std;
+int counts;
+int isKeyword(char buffer[])
 {
-	if (ch == ' ' || ch == '+' || ch == '-' || ch == '*' ||
-		ch == '/' || ch == ',' || ch == ';' || ch == '>' ||
-		ch == '<' || ch == '=' || ch == '(' || ch == ')' ||
-		ch == '[' || ch == ']' || ch == '{' || ch == '}'){
-			count++;
-		return (true);}
-		
-	return (false);
+    char keywords[32][10] = {"auto", "break", "case", "char", "const", "continue", "default",
+                             "do", "double", "else", "enum", "extern", "float", "for", "goto",
+                             "if", "int", "long", "register", "return", "short", "signed",
+                             "sizeof", "static", "struct", "switch", "typedef", "union",
+                             "unsigned", "void", "volatile", "while"};
+    int i, flag = 0;
+    for (i = 0; i < 32; ++i)
+    {
+        if (strcmp(keywords[i], buffer) == 0)
+        {
+            flag = 1;
+            break;
+        }
+        counts++;
+    }
+    return flag;
 }
-
-bool isOperator(char ch)
-{
-	if (ch == '+' || ch == '-' || ch == '*' ||
-		ch == '/' || ch == '>' || ch == '<' ||
-		ch == '=')
-		{
-			count++;
-		return (true);}
-	return (false);
-}
-
-bool validIdentifier(char* str)
-{
-	if (str[0] == '0' || str[0] == '1' || str[0] == '2' ||
-		str[0] == '3' || str[0] == '4' || str[0] == '5' ||
-		str[0] == '6' || str[0] == '7' || str[0] == '8' ||
-		str[0] == '9' || isDelimiter(str[0]) == true)
-		return (false);
-			count++;
-		return (true);
-}
-
-// Returns 'true' if the string is a KEYWORD.
-bool isKeyword(char* str)
-{
-	if (!strcmp(str, "if") || !strcmp(str, "else") ||
-		!strcmp(str, "while") || !strcmp(str, "do") ||
-		!strcmp(str, "break") ||
-		!strcmp(str, "continue") || !strcmp(str, "int")
-		|| !strcmp(str, "double") || !strcmp(str, "float")
-		|| !strcmp(str, "return") || !strcmp(str, "char")
-		|| !strcmp(str, "case") || !strcmp(str, "char")
-		|| !strcmp(str, "sizeof") || !strcmp(str, "long")
-		|| !strcmp(str, "short") || !strcmp(str, "typedef")
-		|| !strcmp(str, "switch") || !strcmp(str, "unsigned")
-		|| !strcmp(str, "void") || !strcmp(str, "static")
-		|| !strcmp(str, "struct") || !strcmp(str, "goto"))
-{
-			count++;
-		return (true);}
-	return (false);
-}
-
-bool isInteger(char* str)
-{
-	int i, len = strlen(str);
-
-	if (len == 0)
-		return (false);
-	for (i = 0; i < len; i++) {
-		if (str[i] != '0' && str[i] != '1' && str[i] != '2'
-			&& str[i] != '3' && str[i] != '4' && str[i] != '5'
-			&& str[i] != '6' && str[i] != '7' && str[i] != '8'
-			&& str[i] != '9' || (str[i] == '-' && i > 0))
-			return (false);
-	}
-	
-		count++;
-		return (true);
-}
-
-bool isRealNumber(char* str)
-{
-	int i, len = strlen(str);
-	bool hasDecimal = false;
-
-	if (len == 0)
-		return (false);
-	for (i = 0; i < len; i++) {
-		if (str[i] != '0' && str[i] != '1' && str[i] != '2'
-			&& str[i] != '3' && str[i] != '4' && str[i] != '5'
-			&& str[i] != '6' && str[i] != '7' && str[i] != '8'
-			&& str[i] != '9' && str[i] != '.' ||
-			(str[i] == '-' && i > 0))
-			return (false);
-		if (str[i] == '.')
-			hasDecimal = true;
-	}
-	return (hasDecimal);
-}
-
-// Extracts the SUBSTRING.
-char* subString(char* str, int left, int right)
-{
-	int i;
-	char* subStr = (char*)malloc(
-				sizeof(char) * (right - left + 2));
-
-	for (i = left; i <= right; i++)
-		subStr[i - left] = str[i];
-	subStr[right - left + 1] = '\0';
-	return (subStr);
-}
-
-void parse(char* str)
-{
-	int left = 0, right = 0;
-	int len = strlen(str);
-
-	while (right <= len && left <= right) {
-		if (isDelimiter(str[right]) == false)
-			right++;
-
-		if (isDelimiter(str[right]) == true && left == right) {
-			if (isOperator(str[right]) == true)
-				printf("'%c' IS AN OPERATOR\n", str[right]);
-
-			right++;
-			left = right;
-		} else if (isDelimiter(str[right]) == true && left != right
-				|| (right == len && left != right)) {
-			char* subStr = subString(str, left, right - 1);
-
-			if (isKeyword(subStr) == true)
-				printf("'%s' IS A KEYWORD\n", subStr);
-
-			else if (isInteger(subStr) == true)
-				printf("'%s' IS AN INTEGER\n", subStr);
-
-			else if (isRealNumber(subStr) == true)
-				printf("'%s' IS A REAL NUMBER\n", subStr);
-
-			else if (validIdentifier(subStr) == true
-					&& isDelimiter(str[right - 1]) == false)
-				printf("'%s' IS A VALID IDENTIFIER\n", subStr);
-
-			else if (validIdentifier(subStr) == false
-					&& isDelimiter(str[right - 1]) == false)
-				printf("'%s' IS NOT A VALID IDENTIFIER\n", subStr);
-			left = right;
-		}
-	}
-	return;
-}
-
 
 int main()
 {
+    char ch, buffer[1500], operators[] = "+-*/%=";
+    ifstream fin("program.txt");
+    int i, j = 0;
+    if (!fin.is_open())
+    {
+        cout << "error while opening the file\n";
+        exit(0);
+    }
+    while (!fin.eof())
+    {
+        ch = fin.get();
 
-	char str[100] = "int Raghavendra = 100; ";
+        for (i = 0; i < 6; ++i)
+        {
+            if (ch == operators[i])
+                cout << ch << " is operator\n";
+        }
 
-	parse(str); 
-	printf("%d",count);
-	return (0);
+        if (isalnum(ch))
+        {
+            buffer[j++] = ch;
+        }
+        else if ((ch == ' ' || ch == '\n') && (j != 0))
+        {
+            buffer[j] = '\0';
+            j = 0;
+
+            if (isKeyword(buffer) == 1)
+                cout << buffer << " is keyword\n";
+            else
+                cout << buffer << " is indentifier\n";
+        }
+    }
+    fin.close();
+    cout << "Number of Token = " << counts << endl;
+    return 0;
 }
-
