@@ -118,7 +118,7 @@ void parse(char* str)
 
 		if (isDelimiter(str[right]) == true && left == right) {
 			if (isOperator(str[right]) == true)
-				printf("'%c' IS AN OPERATOR\n", str[right]);
+				count++;
 
 			right++;
 			left = right;
@@ -152,7 +152,7 @@ void parse(char* str)
 int main()
 {
 
-	char str[100] = "int a = 100; ";
+	char str[100] = "int a = 100;";
 
 	parse(str); 
 	printf("%d",count);
