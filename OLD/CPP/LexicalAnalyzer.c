@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-int count = 0;
+int count = 1;
 bool isDelimiter(char ch)
 {
 	if (ch == ' ' || ch == '+' || ch == '-' || ch == '*' ||
@@ -155,7 +155,7 @@ int main()
 	char str[100] = "int a = 100;";
 
 	parse(str); 
-	printf("%d",count);
+	printf("Number of Tokens are: %d",count);
 	return (0);
 }
 
