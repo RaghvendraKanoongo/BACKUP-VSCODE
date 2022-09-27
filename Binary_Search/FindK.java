@@ -3,7 +3,7 @@
 public class FindK {
     public static void main(String[] args) {
         System.err.println("babaji");
-        int[] arr = {2,5};
+        int[] arr = {};
         int k = 0;
         int low = 0;
         int high = arr.length-1;
