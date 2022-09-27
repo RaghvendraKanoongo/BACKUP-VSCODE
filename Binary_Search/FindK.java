@@ -11,7 +11,7 @@ public class FindK {
         int k = 50;// to find 
         int low = 0;
         int high = arr.length-1;
-        int mid = (low+high)/2;//5
+        int mid = (low+high)/2; //5
         int i = 0;
         while (true) {
             if(high == low){
