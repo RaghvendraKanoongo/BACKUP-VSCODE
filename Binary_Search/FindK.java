@@ -3,11 +3,12 @@
 public class FindK {
     public static void main(String[] args) {
         System.err.println("babaji");
-        int[] arr = {};
-        int k = 0;
+        //           0 1 2 3 4 5 6 7 8 9  10 11
+        int[] arr = {2,5,8,10,12,15,18,50,80,90};
+        int k = 50;
         int low = 0;
         int high = arr.length-1;
-        int mid = (low/2)+(high/2);
+        int mid = (low+high)/2;
         int i = 0;
         while (true) {
             if(high == low){
