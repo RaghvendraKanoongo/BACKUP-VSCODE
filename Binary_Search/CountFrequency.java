@@ -9,7 +9,7 @@ public class CountFrequency {
         int high = arr.length-1;
         int mid = (low/2) +(high/2);
 
-
+    
         return new int[4];
     }
 }
