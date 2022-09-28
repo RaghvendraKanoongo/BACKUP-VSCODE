@@ -4,6 +4,9 @@ public class CountFrequency {
     }
 
     static int[] count(){
+
+        
+
         return new int[4];
     }
 }
