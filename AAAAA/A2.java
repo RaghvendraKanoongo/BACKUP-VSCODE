@@ -12,3 +12,4 @@ class A{
 class B extends A{
 
 }
+I
