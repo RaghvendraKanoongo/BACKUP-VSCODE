@@ -13,7 +13,7 @@ public class CountFrequency {
             if(arr[mid] == key){
                 high = mid;
             }
-            else if ()
+            else if (arr[mid])
         }
         return new int[4];
     }
