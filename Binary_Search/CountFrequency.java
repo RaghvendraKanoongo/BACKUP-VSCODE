@@ -9,7 +9,12 @@ public class CountFrequency {
         int high = arr.length-1;
         int mid = (low/2) +(high/2);
 
-    
+        while(true){
+            if(arr[mid] == key){
+                high = mid;
+            }
+            else if ()
+        }
         return new int[4];
     }
 }
