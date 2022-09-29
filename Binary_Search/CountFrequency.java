@@ -5,7 +5,7 @@ public class CountFrequency {
         System.out.println(count(arr, 4));
     }
 
-    static int count(int[] arr, int key){
+    static int[] count(int[] arr, int key){
 
         int low = 0;
         int high = arr.length-1;
@@ -30,8 +30,14 @@ public class CountFrequency {
                 }
                 mid = (low+high)/2;
             }
+            if(arr[end] == key){
+                
+            }
+            else{
+                
+            }
         }
 
-        return start;
+        return new int[4];
     }
 }
