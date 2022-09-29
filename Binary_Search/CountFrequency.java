@@ -39,7 +39,7 @@ public class CountFrequency {
             }
             else{
                 while (true) {
-                    if(arr[mid]<key){
+                    if(arr[mid]<=key){
                         low = mid;
                     }
                 }
