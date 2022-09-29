@@ -6,7 +6,7 @@ public class CountFrequency {
     public static void main(String[] args) {
         System.out.println("babaji");
         int[] arr = {1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10 };
-        System.out.println(Arrays.toString(count(arr, 1)));
+        System.out.println(Arrays.toString(count(arr, 4)));
     }
 
     static int[] count(int[] arr, int key){
@@ -66,6 +66,7 @@ public class CountFrequency {
         
         finalArr[0] = start;
         finalArr[1] = end;
+        if(finalArr[0] == key)
         return finalArr;
     }
 }
