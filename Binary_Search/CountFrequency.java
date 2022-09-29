@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class CountFrequency {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {2,3,3,3,4,5};
+        int[] arr = {1,4,4};
         System.out.println(Arrays.toString(count(arr, 4)));
     }
 
@@ -15,6 +15,7 @@ public class CountFrequency {
         int start = 0;
         int end = arr.length-1;
 
+        if(arr[low]<)
         if(arr[low] == key)
             start = low;
         else{
