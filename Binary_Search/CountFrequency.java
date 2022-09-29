@@ -7,11 +7,11 @@ public class CountFrequency {
 
         int low = 0;
         int high = arr.length-1;
-        int mid = (low/2) +(high/2);
+        int mid = (low/2) + (high/2);
 
         while(true){
             if(arr[mid] == key){
-                high = mid;
+                high = mid-1;
             }
             else if (arr[mid])
         }
