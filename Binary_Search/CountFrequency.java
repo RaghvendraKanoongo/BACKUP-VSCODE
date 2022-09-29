@@ -16,7 +16,9 @@ public class CountFrequency {
         int end = arr.length-1;
         int[] finalArr = new int[2];
         if(arr[low]>key||arr[high]<key){
-            finalArr = [2,3];
+            finalArr[0] = -1;
+            finalArr[1] = -1;
+            return finalArr;
         }
 
         if(arr[low] == key)
@@ -60,7 +62,8 @@ public class CountFrequency {
                 }
             }
         }
-        finalArr = {start,end};
+        finalArr[0] = start;
+        finalArr[1] = end;
         return finalArr;
     }
 }
