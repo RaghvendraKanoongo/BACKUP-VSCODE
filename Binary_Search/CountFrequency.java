@@ -50,7 +50,7 @@ public class CountFrequency {
                     else if(arr[mid]>key){
                         high = mid;
                     }
-                    
+                    mid = low+high)
                 }
             }
         }
