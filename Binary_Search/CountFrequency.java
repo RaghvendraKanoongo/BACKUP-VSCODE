@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class CountFrequency {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {1,4,4};
-        System.out.println(Arrays.toString(count(arr, 4)));
+        int[] arr = {1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10, 10, 10};
+        System.out.println(Arrays.toString(count(arr, 1)));
     }
 
     static int[] count(int[] arr, int key){
