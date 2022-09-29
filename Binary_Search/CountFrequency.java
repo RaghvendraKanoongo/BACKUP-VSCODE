@@ -1,7 +1,7 @@
 public class CountFrequency {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {2,3,3,3,4};
+        int[] arr = {2,3,3,3,4,5};
         System.out.println(count(arr, 4));
     }
 
@@ -25,7 +25,7 @@ public class CountFrequency {
                 else if(arr[mid] > key)
                     high = mid;
                 if(low+1 == mid || low+1 == high){
-                    start = mid;
+                    start = low+1;
                     break;
                 }
                 mid = (low/2) + (high/2);
