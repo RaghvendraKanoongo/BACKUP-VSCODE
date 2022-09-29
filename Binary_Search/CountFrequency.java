@@ -28,7 +28,7 @@ public class CountFrequency {
                     start = low+1;
                     break;
                 }
-                mid = (low/2) + (high/2);
+                mid = (low+high)/2;
             }
         }
 
