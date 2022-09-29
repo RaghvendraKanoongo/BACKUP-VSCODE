@@ -15,13 +15,14 @@ public class CountFrequency {
                 high = mid;
             else if (arr[mid] < key)
                 low = mid;
+            else if(arr[mid] > key)
             if(low+1 == high){
                 start = high;
                 break;
             }
             mid = (low/2) + (high/2);
         }
-        
+
         return new int[4];
     }
 }
