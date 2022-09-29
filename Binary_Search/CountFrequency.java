@@ -22,14 +22,14 @@ public class CountFrequency {
                     low = mid;
                 else if(arr[mid] > key)
                     high = mid;
-                if(low+1 == high){
+                if(low+1 == mid){
                     start = high;
                     break;
                 }
                 mid = (low/2) + (high/2);
             }
         }
-    
+
         return new int[4];
     }
 }
