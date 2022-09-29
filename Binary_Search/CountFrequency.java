@@ -1,11 +1,11 @@
 public class CountFrequency {
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {2,3,3,3,4,4,4,4,4,4,6,7,8,8};
-        count(, 4)
+        int[] arr = {2,3,3,3,4};
+        System.out.println(count(arr, 4));
     }
 
-    static int[] count(int[] arr, int key){
+    static int count(int[] arr, int key){
 
         int low = 0;
         int high = arr.length-1;
@@ -32,6 +32,6 @@ public class CountFrequency {
             }
         }
 
-        return new int[4];
+        return start;
     }
 }
