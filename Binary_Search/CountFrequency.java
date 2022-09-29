@@ -1,8 +1,10 @@
+import java.util.Arrays;
+
 public class CountFrequency {
     public static void main(String[] args) {
         System.out.println("babaji");
         int[] arr = {2,3,3,3,4,5};
-        System.out.println(count(arr, 4));
+        System.out.println(Arrays.toString(count(arr, 4)));
     }
 
     static int[] count(int[] arr, int key){
@@ -50,11 +52,11 @@ public class CountFrequency {
                     else if(arr[mid]>key){
                         high = mid;
                     }
-                    mid = low+high)
+                    mid = (low+high)/2;
                 }
             }
         }
-
-        return new int[4];
+        int[] finalArr = {start,end};
+        return finalArr;
     }
 }
