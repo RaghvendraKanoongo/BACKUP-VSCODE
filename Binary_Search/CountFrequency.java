@@ -40,30 +40,30 @@ public class CountFrequency {
                 }
                 mid = (low+high)/2;
             }
+        }
+        low = 0;
+        high = arr.length-1;
+        mid = (low+high)/2;
 
-            low = 0;
-            high = arr.length-1;
-            mid = (low+high)/2;
-
-            if(arr[end] == key){
-                
-            }
-            else{
-                while (true) {
-                    if(low+1 == high){
-                        end = low;
-                        break;
-                    }
-                    else if(arr[mid]<=key){
-                        low = mid;
-                    }
-                    else if(arr[mid]>key){
-                        high = mid;
-                    }
-                    mid = (low+high)/2;
+        if(arr[end] == key){
+            
+        }
+        else{
+            while (true) {
+                if(low+1 == high){
+                    end = low;
+                    break;
                 }
+                else if(arr[mid]<=key){
+                    low = mid;
+                }
+                else if(arr[mid]>key){
+                    high = mid;
+                }
+                mid = (low+high)/2;
             }
         }
+        
         finalArr[0] = start;
         finalArr[1] = end;
         return finalArr;
