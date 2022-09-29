@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountFrequency",
+            "request": "launch",
+            "mainClass": "Binary_Search.CountFrequency",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
             "name": "Launch Solution",
             "request": "launch",
             "mainClass": "Binary_Search.Solution",
