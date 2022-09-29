@@ -30,11 +30,17 @@ public class CountFrequency {
                 }
                 mid = (low+high)/2;
             }
+            
+            low = 0;
+            high = arr.length-1;
+            mid = (low/2) + (high/2);
             if(arr[end] == key){
                 
             }
             else{
-                
+                while (true) {
+                    if(arr[mid])
+                }
             }
         }
 
