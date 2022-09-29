@@ -1,4 +1,4 @@
-// package Binary_Search;
+package Binary_Search;
 
 import java.util.Arrays;
 
@@ -26,7 +26,7 @@ public class CountFrequency {
         if(arr[low] == key)
             start = low;
         else{
-
+            System.out.println("hi");
             while(true){
                 if(arr[mid] == key)
                     high = mid;
@@ -44,6 +44,7 @@ public class CountFrequency {
             low = 0;
             high = arr.length-1;
             mid = (low+high)/2;
+
             if(arr[end] == key){
                 
             }
