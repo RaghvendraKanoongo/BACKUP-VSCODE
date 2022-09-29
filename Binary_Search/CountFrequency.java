@@ -24,7 +24,7 @@ public class CountFrequency {
                     low = mid;
                 else if(arr[mid] > key)
                     high = mid;
-                if(low+1 == mid){
+                if(low+1 == mid || low+1 == high){
                     start = mid;
                     break;
                 }
