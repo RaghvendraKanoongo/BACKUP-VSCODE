@@ -70,6 +70,7 @@ public class CountFrequency {
             finalArr[0] = -1;
             finalArr[1] = -1;
         }
+        System.out.println(start);
         return finalArr;
     }
 }
