@@ -69,7 +69,7 @@ public class CountFrequency {
         
         finalArr[0] = start;
         finalArr[1] = end;
-        if(finalArr[0] != key){
+        if(finalArr[0] != arr[start]){
             System.out.println("josl");
             finalArr[0] = -1;
             finalArr[1] = -1;
