@@ -23,8 +23,10 @@ public class CountFrequency {
             return finalArr;
         }
 
-        if(arr[low] == key)
+        if(arr[low] == key){
             start = low;
+            System.out.println("kya haal h");
+        }
         else{
 
             while(true){
@@ -45,8 +47,9 @@ public class CountFrequency {
         high = arr.length-1;
         mid = (low+high)/2;
 
-        if(arr[end] == key){
-            
+        if(arr[high] == key){
+            end = high;
+            System.out.println("hola bhai");
         }
         else{
             while (true) {
