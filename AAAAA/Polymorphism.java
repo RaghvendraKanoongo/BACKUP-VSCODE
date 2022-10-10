@@ -55,6 +55,12 @@ class CC extends BB{
 }
 /*
  
-    
+    apti
+    college ka major project
+    english
+    Spring, Hibernate
+    DSA
+    HLD LLD
 
+    and ese projects mene banae the in my 2nd year 
  */
