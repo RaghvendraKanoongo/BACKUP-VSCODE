@@ -57,10 +57,10 @@ class CC extends BB{
  
     apti
     college ka major project
-    english
+    english book reading 
     Spring, Hibernate
     DSA
     HLD LLD
-
+    college jana padta h attendance
     and ese projects mene banae the in my 2nd year 
  */
