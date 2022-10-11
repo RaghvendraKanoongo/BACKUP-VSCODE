@@ -25,9 +25,11 @@ public class Test {
 
     static ListNode func(int n){
 
-        ListNode ll = new ListNode((n%10));
+        ListNode ll = new ListNode(());
 
+        
         n /= 10;
+
         while(n > 0){
             ll.next = new ListNode();
         }
