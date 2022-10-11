@@ -17,19 +17,21 @@ class ListNode {
 public class Test {
     public static void main(String[] args) {
         System.out.println("hola");
-        func(2035);
+
+        ListNode temp =  func(2035);;
+        System.out.println(temp.val);
 
     }
 
     static ListNode func(int n){
 
         ListNode ll = new ListNode((n%10));
+
         n /= 10;
-        if(n <= ){
+        if(n > 0){
             ll.next = new ListNode();
         }
 
-
-        return new ListNode();
+        return ll;
     }
 }
