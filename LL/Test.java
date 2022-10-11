@@ -13,7 +13,15 @@ class ListNode {
 public class Test {
     public static void main(String[] args) {
         System.out.println("hola");
+        func(2035);
+
     }
 
-    static LinkedList 
+    static ListNode func(int n){
+
+        ListNode = 
+
+
+        return new ListNode();
+    }
 }
