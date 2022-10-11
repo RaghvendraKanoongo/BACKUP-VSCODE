@@ -22,11 +22,12 @@ public class Test {
     }
 
     public static int name() {
+        System.out.println("inside");
         try {
             System.out.println(10/0);
             
             try {
-                System.out.println(10/0);
+                System.out.println(10/0); 
             } 
             catch (Exception e) {
                 return 0;
