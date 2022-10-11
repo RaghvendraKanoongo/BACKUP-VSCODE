@@ -6,8 +6,12 @@ class ListNode {
         int val;
         ListNode next;
         ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+        ListNode(int val) { 
+            this.val = val; 
+        }
+        ListNode(int val, ListNode next) { 
+            this.val = val; this.next = next; 
+        }
 }
 
 public class Test {
@@ -19,7 +23,7 @@ public class Test {
 
     static ListNode func(int n){
 
-        ListNode = 
+        ListNode ll = new ListNode(n%10,);
 
 
         return new ListNode();
