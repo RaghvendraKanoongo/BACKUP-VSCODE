@@ -1,6 +1,6 @@
-import java.util.LinkedList;
+// import java.util.LinkedList;
 
-// package LL;
+package LL;
 
 class ListNode {
         int val;
@@ -18,53 +18,36 @@ public class Test {
     public static void main(String[] args) {
         System.out.println("hola");
 
-        try {
-            System.out.println("outer try 1");
-            try {
-                System.out.println("in intter try");
-            } catch (Exception e) {
-                System.out.println("in inner catch");
-            }
-            finally{
-                return 0;
-            }
-        } catch (Exception e) {
-
-        }
-        finally{
-            System.out.println("outer finally1");
-        }
-        try {
-            System.out.println("outer try 1");
-            
-        } catch (Exception e) {
-
-        }
-        finally{
+       
             System.out.println("outer finally1");
 
         }
 
 
-    }
+    
 
     public static int name() {
         try {
             System.out.println(10/0);
+            
             try {
-                System.out.println();
-            } catch (Exception e) {
+                System.out.println(10/0);
+            } 
+            catch (Exception e) {
                 return 0;
             }
             finally{
                 return 0;
             }
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
+            return 0;
+        }
 
-        }
         finally{
-            System.out.println("outer finally1");
+            return 0;
         }
+
         try {
             System.out.println("outer try 1");
             
