@@ -23,7 +23,11 @@ public class Test {
 
     static ListNode func(int n){
 
-        ListNode ll = new ListNode(n%10,);
+        ListNode ll = new ListNode((n%10));
+        n /= 10;
+        if(n <= ){
+            ll.next = new ListNode();
+        }
 
 
         return new ListNode();
