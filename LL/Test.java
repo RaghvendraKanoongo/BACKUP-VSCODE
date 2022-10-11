@@ -18,41 +18,36 @@ public class Test {
     public static void main(String[] args) {
         System.out.println("hola");
 
-        ListNode temp =  func(2035);;
-        System.out.println(temp.val);
-
-    }
-
-    static ListNode func(int n){
-
-        
-
-
         try {
-            
+            System.out.println("outer try 1");
             try {
-                System.out.println("hola");
+                System.out.println("in intter try");
             } catch (Exception e) {
-                // TODO: handle exception
+                System.out.println("in inner catch");
             }
             finally{
-                System.out.println("hola");
+                return 0;
             }
         } catch (Exception e) {
-            // TODO: handle exception
+
         }
         finally{
-
+            System.out.println("outer finally1");
         }
         try {
+            System.out.println("outer try 1");
             
         } catch (Exception e) {
-            // TODO: handle exception
+
         }
         finally{
+            System.out.println("outer finally1");
 
         }
-        return ll;
+
 
     }
+
+    st
+    
 }
