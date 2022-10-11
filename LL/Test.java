@@ -17,14 +17,9 @@ class ListNode {
 public class Test {
     public static void main(String[] args) {
         System.out.println("hola");
+        name();
 
-       
-            System.out.println("outer finally1");
-
-        }
-
-
-    
+    }
 
     public static int name() {
         try {
@@ -47,17 +42,5 @@ public class Test {
         finally{
             return 0;
         }
-
-        try {
-            System.out.println("outer try 1");
-            
-        } catch (Exception e) {
-
-        }
-        finally{
-            System.out.println("outer finally1");
-
-        }
     }
-
 }
