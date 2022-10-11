@@ -48,6 +48,33 @@ public class Test {
 
     }
 
-    st
-    
+    public static int name() {
+        try {
+            System.out.println(10/0);
+            try {
+                System.out.println();
+            } catch (Exception e) {
+                return 0;
+            }
+            finally{
+                return 0;
+            }
+        } catch (Exception e) {
+
+        }
+        finally{
+            System.out.println("outer finally1");
+        }
+        try {
+            System.out.println("outer try 1");
+            
+        } catch (Exception e) {
+
+        }
+        finally{
+            System.out.println("outer finally1");
+
+        }
+    }
+
 }
