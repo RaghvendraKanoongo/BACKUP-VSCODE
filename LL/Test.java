@@ -25,14 +25,34 @@ public class Test {
 
     static ListNode func(int n){
 
-        ListNode ll = new ListNode(());
-
         
-        n /= 10;
 
-        while(n > 0){
-            ll.next = new ListNode();
+
+        try {
+            
+            try {
+                System.out.println("hola");
+            } catch (Exception e) {
+                // TODO: handle exception
+            }
+            finally{
+                System.out.println("hola");
+            }
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+        finally{
+
+        }
+        try {
+            
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+        finally{
+
         }
         return ll;
+
     }
 }
