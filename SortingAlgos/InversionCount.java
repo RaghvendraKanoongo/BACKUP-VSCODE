@@ -51,9 +51,9 @@ public class InversionCount {
             r++;
             i++;
         }
-
-        for (int j = low; j < ; j++) {
-            
+        i = 0;
+        for (int j = low; j <= high ; j++,i++) {
+            arr[low] = temp[i];
         }
 
     }
