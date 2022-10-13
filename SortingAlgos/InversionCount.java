@@ -1,4 +1,4 @@
-package SortingAlgos;
+// package SortingAlgos;
 import java.util.Arrays;
 
 
@@ -7,10 +7,10 @@ public class InversionCount {
     static int x = 0;
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {4,1,2,3};
+        int[] arr = {1,2};
         divide(arr, 0, arr.length-1);
-         System.out.println(count);
-        // System.out.println(Arrays.toString(arr));
+        //  System.out.println(count);
+        
     }
 
     static void divide(int[] arr, int low, int high){
@@ -51,7 +51,7 @@ public class InversionCount {
             }
         }
 
-        while (l != low+1) {
+        while (l != mid+1) {
             temp[i] = arr[l];
             l++;
             i++;
@@ -71,6 +71,6 @@ public class InversionCount {
             // System.out.println(arr[j]);
         }
 
-        System.out.println("count for "+ ++x +"time is: " +count );
+        // System.out.println("count for "+ ++x +"time is: " +count );
     }
 }
