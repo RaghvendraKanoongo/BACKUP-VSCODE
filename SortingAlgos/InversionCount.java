@@ -1,4 +1,4 @@
-package SortingAlgos;
+// package SortingAlgos;
 import java.util.Arrays;
 
 
@@ -32,7 +32,7 @@ public class InversionCount {
         int i = 0;
         while (true) {
 
-            if(l == low+1 || r == high+1){
+            if(l == mid+1 || r == high+1){
                 break;
             }
             else if(arr[l]>arr[r]){
