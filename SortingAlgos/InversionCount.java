@@ -12,12 +12,13 @@ public class InversionCount {
         if(low == high){
             return;
         }
+
         divide(arr, low, mid);
         divide(arr, mid+1, high);
         countInversions(arr, low, mid, high);
     }
 
     static void countInversions(int arr[], int low, int mid, int high){
-
+        int[] temp = new int[]
     }
 }
