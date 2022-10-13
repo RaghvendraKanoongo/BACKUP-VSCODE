@@ -6,7 +6,11 @@ public class InversionCount {
         System.out.println("babaji");
     }
 
-    static void divide(int[] arr, int l, int high){
-        int m = 
+    static void divide(int[] arr, int low, int high){
+        int mid = (low+high)/2;
+        divide(arr, low, mid);
+        divide(arr, mid+1, high);
+        countInversions();
     }
+    static void countInversions(int arr[], )
 }
