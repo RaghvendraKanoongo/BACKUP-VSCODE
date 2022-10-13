@@ -7,9 +7,9 @@ public class InversionCount {
     static int x = 0;
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {1,2};
+        int[] arr = {28, 18, 44, 49, 41, 14};
         divide(arr, 0, arr.length-1);
-        //  System.out.println(count);
+          System.out.println(count);
         
     }
 
