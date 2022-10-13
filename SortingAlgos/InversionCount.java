@@ -28,7 +28,9 @@ public class InversionCount {
             if(l == low+1 || r == high+1){
                 break;
             }
-            else if(arr[])
+            else if(arr[l]>arr[r]){
+                
+            }
 
         }
     }
