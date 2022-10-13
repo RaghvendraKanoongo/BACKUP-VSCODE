@@ -27,7 +27,9 @@ public class InversionCount {
 
     static void countInversions(int arr[], int low, int mid, int high){
         int[] temp = new int[high-low+1];
-        if (low == 0 && high = )
+        if (low == 0 && high == 3){
+            int b = 0;
+        }
         int l = low;
         int r = mid+1;
         int i = 0;
