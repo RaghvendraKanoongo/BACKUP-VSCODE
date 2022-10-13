@@ -29,8 +29,12 @@ public class InversionCount {
                 break;
             }
             else if(arr[l]>arr[r]){
-                
+                count += mid-l+1; 
+                temp[i] = arr[r];
+                r++;
+                i++;
             }
+            else if()
 
         }
     }
