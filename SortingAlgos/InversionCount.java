@@ -9,8 +9,8 @@ public class InversionCount {
         System.out.println("babaji");
         int[] arr = {4,1,2,3};
         divide(arr, 0, arr.length-1);
-        System.out.println(count);
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(count);
+        // System.out.println(Arrays.toString(arr));
     }
 
     static void divide(int[] arr, int low, int high){
@@ -58,12 +58,13 @@ public class InversionCount {
             r++;
             i++;
         }
+        System.out.println(Arrays.toString(temp));
         i = 0;
         System.out.println("here");
         for (int j = low; j <= high ; j++,i++) {
             arr[j] = temp[i];
             
-            System.out.println(arr[low]);
+            // System.out.println(arr[j]);
         }
 
         System.out.println("count for "+ ++x +"time is: " +count );
