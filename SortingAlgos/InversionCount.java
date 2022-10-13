@@ -39,8 +39,22 @@ public class InversionCount {
                 l++;
             }
         }
+
         while (l != low+1) {
+            temp[i] = arr[l];
+            l++;
+            i++;
+        }
+
+        while (r != high+1) {
+            temp[i] = arr[r];
+            r++;
+            i++;
+        }
+
+        for (int j = low; j < ; j++) {
             
         }
+
     }
 }
