@@ -38,13 +38,13 @@ public class InversionCount {
             if(l == mid+1 || r == high+1){
                 break;
             }
-            else if(arr[l]>(arr[r])){
+            else if(arr[l]>2*(arr[r])){
                 count += mid-l+1; 
                 temp[i] = arr[r];
                 r++;
                 i++;
             }
-            else if() {
+            else if(arr[l]<=arr[r]) {
                 temp[i] = arr[l];
                 l++;
                 i++;
