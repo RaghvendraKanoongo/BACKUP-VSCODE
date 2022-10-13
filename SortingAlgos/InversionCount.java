@@ -44,6 +44,7 @@ public class InversionCount {
             else {
                 temp[i] = arr[l];
                 l++;
+                i++;
             }
         }
 
