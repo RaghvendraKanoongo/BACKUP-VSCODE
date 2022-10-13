@@ -34,8 +34,13 @@ public class InversionCount {
                 r++;
                 i++;
             }
-            else if()
-
+            else {
+                temp[i] = arr[l];
+                l++;
+            }
+        }
+        while (l != low+1) {
+            
         }
     }
 }
