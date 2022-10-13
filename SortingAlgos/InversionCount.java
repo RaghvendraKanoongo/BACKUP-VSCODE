@@ -2,8 +2,10 @@
 
 public class InversionCount {
     static int count = 0;
+    static int x = 0;
     public static void main(String[] args) {
         System.out.println("babaji");
+        
     }
 
     static void divide(int[] arr, int low, int high){
@@ -55,6 +57,6 @@ public class InversionCount {
         for (int j = low; j <= high ; j++,i++) {
             arr[low] = temp[i];
         }
-
+        System.out.println("count for "+ ++x +"time is: " +count );
     }
 }
