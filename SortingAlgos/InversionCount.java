@@ -7,13 +7,17 @@ public class InversionCount {
     }
 
     static void divide(int[] arr, int low, int high){
+        
         int mid = (low+high)/2;
+        if(low == high){
+            return;
+        }
         divide(arr, low, mid);
         divide(arr, mid+1, high);
         countInversions(arr, low, mid, high);
     }
 
     static void countInversions(int arr[], int low, int mid, int high){
-        
+
     }
 }
