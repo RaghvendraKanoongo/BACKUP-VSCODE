@@ -20,11 +20,16 @@ public class InversionCount {
 
     static void countInversions(int arr[], int low, int mid, int high){
         int[] temp = new int[high-low+1];
-        int l = s;
-        
+        int l = low;
+        int r = mid+1;
+        int i = 0;
         while (true) {
 
-            if(s == m+1 || high == high+1)
+            if(l == low+1 || r == high+1){
+                break;
+            }
+            else if(arr[])
+
         }
     }
 }
