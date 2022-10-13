@@ -7,7 +7,7 @@ public class InversionCount {
     static int x = 0;
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {14046, 57239, 78362, 99387, 27609, 55100, 65536, 62099, 40820, 33056, 88380, 78549, 57512, 33137, 81212, 32365, 42276, 65368, 52459, 74924, 25355, 76044, 78056, 45190, 94365, 58869, 20611};
+        int[] arr = {15,13,2,25,1,12,6,2};
         divide(arr, 0, arr.length-1);
           System.out.println(count);
         
@@ -44,7 +44,7 @@ public class InversionCount {
                 r++;
                 i++;
             }
-            else {
+            else if() {
                 temp[i] = arr[l];
                 l++;
                 i++;
