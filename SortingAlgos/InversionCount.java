@@ -1,13 +1,13 @@
+package SortingAlgos;
 import java.util.Arrays;
 
-// package SortingAlgos;
 
 public class InversionCount {
     static int count = 0;
     static int x = 0;
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {3,1,2};
+        int[] arr = {4,1,2,3};
         divide(arr, 0, arr.length-1);
         System.out.println(count);
         System.out.println(Arrays.toString(arr));
@@ -65,7 +65,7 @@ public class InversionCount {
             
             System.out.println(arr[low]);
         }
-        
+
         System.out.println("count for "+ ++x +"time is: " +count );
     }
 }
