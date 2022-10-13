@@ -1,4 +1,4 @@
-// package SortingAlgos;
+package SortingAlgos;
 import java.util.Arrays;
 
 
@@ -9,7 +9,7 @@ public class InversionCount {
         System.out.println("babaji");
         int[] arr = {4,1,2,3};
         divide(arr, 0, arr.length-1);
-        // System.out.println(count);
+         System.out.println(count);
         // System.out.println(Arrays.toString(arr));
     }
 
@@ -27,6 +27,7 @@ public class InversionCount {
 
     static void countInversions(int arr[], int low, int mid, int high){
         int[] temp = new int[high-low+1];
+        if (low == 0 && high = )
         int l = low;
         int r = mid+1;
         int i = 0;
