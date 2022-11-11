@@ -5,12 +5,10 @@ class Temp {
        // Java program to check if two
 // numbers are co-prime or not
 class GFG {
-	
-	// Recursive function to
-	// return gcd of a and b
+
 	static int __gcd(int a, int b)
 	{
-		// Everything divides 0
+        
 		if (a == 0 || b == 0)
 			return 0;
 		
@@ -18,7 +16,6 @@ class GFG {
 		if (a == b)
 			return a;
 		
-		// a is greater
 		if (a > b)
 			return __gcd(a-b, b);
 				
