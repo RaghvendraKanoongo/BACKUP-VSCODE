@@ -5,15 +5,49 @@ class Temp {
         
 
     }
-    static int funn(int a, int b){
-        if((3&b )>(b-3) && (b-a )>(6-a)){
-            b = b+2;
-            a = (a+3)+b;
-            a = (b+1)+b;
-            return 1+funn(a+1,b+2)+2;
+    public static void main(String[] args)
+    {
+        int a, b, gcd = 1;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a=");
+        a = sc.nextInt();
+        System.out.print("Enter b=");
+        b = sc.nextInt();
+        int min, max;
+        min = a;
+        if (min > b)
+        {
+            min = b;
+            max = a;
         }
-        else 
-            return a+b-1;
+        else
+        {
+            min = a;
+            max = b;
+        }
+        while (max > min)
+        {
+            int r = max % min;
+            if (r == 0)
+            {
+                gcd = min;
+                break;
+            }
+            else
+            {
+                max = min;
+                min = r;
+            }
+        }
+        if (gcd == 1)
+        {
+            System.out.println("Co Prime Numbers");
+        }
+        else
+        {
+            System.out.println("Not Co Prime Numbers");
+        }
     }
+    
 }
 
