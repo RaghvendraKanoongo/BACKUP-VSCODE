@@ -1,14 +1,11 @@
 import java.util.HashMap;
 
 class Temp {
-    public static void main(String[] args) {
-       // Java program to check if two
-// numbers are co-prime or not
-class GFG {
-
+   
+   static int count = 0;
 	static int __gcd(int a, int b)
 	{
-        
+
 		if (a == 0 || b == 0)
 			return 0;
 		
@@ -26,7 +23,7 @@ class GFG {
 	static void coprime(int a, int b) {
 		
 		if ( __gcd(a, b) == 1)
-			System.out.println("Co-Prime");
+			count++;
 		else
 			System.out.println("Not Co-Prime");	
 	}
@@ -34,16 +31,12 @@ class GFG {
 
 	public static void main (String[] args)
 	{
-		int a = 5, b = 6;
-		coprime(a, b);
+		int a = 1, b = 16;
+        for (int i = 0; i <= b ; i++) {
+            coprime(a, b);
+        }
 		
-		a = 8; b = 16;
-		coprime(a, b);
+		System.out.println(count);
 	}
 }
 
-// This code is contributed by Anant Agarwal.
-
-    }
-
-}
