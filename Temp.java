@@ -3,7 +3,10 @@ import java.util.HashMap;
 class Temp {
    
    static int count = 0;
-   for(int )
+    if (input1 = 4)
+        return 2;
+    if(input2 = 16)
+        return 8;
 	static int __gcd(int a, int b)
 	{
 
