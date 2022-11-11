@@ -2,20 +2,51 @@ import java.util.HashMap;
 
 class Temp {
     public static void main(String[] args) {
-        
-        String s = "httpssunrux";
-        String bagBegin = s.substring(0,4);
-        System.out.println(bagBegin);
-        String end = s.substring(s.length()-1);
-        String end2 = s.substring(s.length()-3,s.length()-1);
-        
-System.out.println(end2);
+       // Java program to check if two
+// numbers are co-prime or not
+class GFG {
+	
+	// Recursive function to
+	// return gcd of a and b
+	static int __gcd(int a, int b)
+	{
+		// Everything divides 0
+		if (a == 0 || b == 0)
+			return 0;
+		
+		// base case
+		if (a == b)
+			return a;
+		
+		// a is greater
+		if (a > b)
+			return __gcd(a-b, b);
+				
+		return __gcd(a, b-a);
+	}
+	
+	
+	static void coprime(int a, int b) {
+		
+		if ( __gcd(a, b) == 1)
+			System.out.println("Co-Prime");
+		else
+			System.out.println("Not Co-Prime");	
+	}
+	
 
-            
+	public static void main (String[] args)
+	{
+		int a = 5, b = 6;
+		coprime(a, b);
+		
+		a = 8; b = 16;
+		coprime(a, b);
+	}
+}
 
+// This code is contributed by Anant Agarwal.
 
-        //  return bagBegin+"://"+;
-        
     }
 
 }
