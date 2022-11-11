@@ -1,47 +1,40 @@
 import java.util.HashMap;
 
 class Temp {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int a, b, gcd = 1;
         a = 4;
+        int count = 0;
         b = 0;
-        for (int i = 0; i < args.length; i++) {
-        int min, max;
-        min = a;
-        if (min > b)
-        {
-            min = b;
-            max = a;
-        }
-        else
-        {
+        int temp = a;
+
+        for (int i = 0; i < temp; i++) {
+            int min, max;
+            a = i;
             min = a;
-            max = b;
-        }
-        while (max > min)
-        {
-            int r = max % min;
-            if (r == 0)
-            {
-                gcd = min;
-                break;
+            if (min > b) {
+                min = b;
+                max = a;
+            } else {
+                min = a;
+                max = b;
             }
-            else
-            {
-                max = min;
-                min = r;
+            while (max > min) {
+                int r = max % min;
+                if (r == 0) {
+                    gcd = min;
+                    break;
+                } else {
+                    max = min;
+                    min = r;
+                }
             }
-        }
-        if (gcd == 1)
-        {
-            System.out.println("Co Prime Numbers");
-        }
-        else
-        {
-            System.out.println("Not Co Prime Numbers");
+            if (gcd == 1) {
+                count++;
+            } else {
+                System.out.println("Not Co Prime Numbers");
+            }
         }
     }
-    
-}
 
+}
