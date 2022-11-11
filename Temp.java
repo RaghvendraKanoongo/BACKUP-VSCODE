@@ -3,6 +3,7 @@ import java.util.HashMap;
 class Temp {
    
    static int count = 0;
+   for(int )
 	static int __gcd(int a, int b)
 	{
 
@@ -31,12 +32,12 @@ class Temp {
 
 	public static void main (String[] args)
 	{
-		int a = 1, b = 16;
+		int a = 1, b = 4;
         for (int i = 0; i <= b ; i++) {
             coprime(a, b);
         }
 		
-		System.out.println(count);
+		System.out.println(count/2);
 	}
 }
 
