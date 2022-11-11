@@ -31,11 +31,10 @@ class Temp {
             }
             if (gcd == 1) {
                 count++;
-            } else {
-                System.out.println("Not Co Prime Numbers");
-            }
+            } 
         }
-        System.out.println(count);
+        
+        return count-1;
     }
 
 }
