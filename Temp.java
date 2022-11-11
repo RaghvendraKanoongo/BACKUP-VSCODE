@@ -5,10 +5,10 @@ class Temp {
         int a, b, gcd = 1;
         a = 4;
         int count = 0;
-        b = 0;
+        b = 1;
         int temp = a;
 
-        for (int i = 0; i < temp; i++) {
+        for (int i = 1; i < temp; i++) {
             int min, max;
             a = i;
             min = a;
@@ -35,6 +35,7 @@ class Temp {
                 System.out.println("Not Co Prime Numbers");
             }
         }
+        System.out.println(count);
     }
 
 }
