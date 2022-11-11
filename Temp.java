@@ -3,6 +3,7 @@ import java.util.HashMap;
 class Temp {
     public static void main(String[] args) {
         // System.out.println( funn(7, 5));
+        System.out.println("h");
         HashMap <Integer,Integer> map = new HashMap<Integer,Integer>();
 
     }
