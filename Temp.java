@@ -43,4 +43,3 @@ class Temp {
 		System.out.println(count/2);
 	}
 }
-
