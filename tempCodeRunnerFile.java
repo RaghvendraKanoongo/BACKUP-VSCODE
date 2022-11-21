@@ -6,6 +6,8 @@ public class tempCodeRunnerFile {
     } 
 }
 
-public class A{
-    
+ class A{
+    void foo(){
+        System.out.println("in A");
+    }
 }
