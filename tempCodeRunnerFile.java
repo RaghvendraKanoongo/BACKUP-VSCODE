@@ -5,4 +5,7 @@ public class tempCodeRunnerFile {
         System.out.println("hi aman");
     } 
 }
-public 
+
+public class A{
+    
+}
