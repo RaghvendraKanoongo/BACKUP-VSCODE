@@ -8,7 +8,7 @@ public class tempCodeRunnerFile {
         String bin = Integer.toBinaryString(dec);
         System.out.println(bin);
         int n = bin.length();
-        ArrayList<Integer> arrlist = new ArrayList<Integer>();
+        ArrayList<Integer> arrlist = new ArrayList<Integer>(5);
         for (int i = 0; i < n; i++) {
             if(bin.charAt(i) == 1){
                 arrlist.add(i+1);
