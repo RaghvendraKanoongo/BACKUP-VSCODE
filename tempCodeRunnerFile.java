@@ -9,7 +9,9 @@ public class tempCodeRunnerFile {
         System.out.println(bin);
         int n = bin.length();
         for (int i = 0; i < n; i++) {
-            if
+            if(bin.charAt(i) == 1){
+                arr.add(1);
+            }
         }
 
     }
