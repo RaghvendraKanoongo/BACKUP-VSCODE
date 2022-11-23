@@ -6,6 +6,5 @@ public class tempCodeRunnerFile {
         // converting to binary and representing it in a string
         String bin = Integer.toBinaryString(dec);
         System.out.println(bin);
-        
-     }
+    }
 }
