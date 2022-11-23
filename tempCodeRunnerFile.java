@@ -8,14 +8,15 @@ public class tempCodeRunnerFile {
         String bin = Integer.toBinaryString(dec);
         System.out.println(bin);
         int n = bin.length();
-        ArrayList<Integer> arrlist = new ArrayList<Integer>(5);
-        char a = bin.charAt(2);
+        ArrayList<Integer> arrlist = new ArrayList<Integer>();
+
         for (int i = 0; i < n; i++) {
-            if(bin.charAt(i) == 1){
+            char a = bin.charAt(i);
+            if(a == '1'){
                 arrlist.add(i+1);
             }
         }
-        System.out.println(a);
+        System.out.println(arrlist);
 
     }
 }
