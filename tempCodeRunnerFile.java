@@ -18,7 +18,7 @@ public class tempCodeRunnerFile {
         }
         int x = arrlist.size();
         arrlist.add(0,x);
-        return arrlist;
+        System.out.println(arrlist);
 
     }
 }
