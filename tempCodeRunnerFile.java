@@ -7,7 +7,7 @@ public class tempCodeRunnerFile {
         System.out.println(bin);
         int n = bin.length();
         System.out.println("here");
-        System.out.println(1,,1);
+        System.out.println(2<<1);
         ArrayList<Integer> arrlist = new ArrayList<Integer>();
 
         for (int i = 0; i < n; i++) {
