@@ -6,6 +6,8 @@ public class tempCodeRunnerFile {
         String bin = Integer.toBinaryString(dec);
         System.out.println(bin);
         int n = bin.length();
+        System.out.println("here");
+        System.out.println(1,,1);
         ArrayList<Integer> arrlist = new ArrayList<Integer>();
 
         for (int i = 0; i < n; i++) {
