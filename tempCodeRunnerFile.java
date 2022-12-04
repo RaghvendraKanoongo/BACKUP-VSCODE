@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 public class tempCodeRunnerFile {
 
-    public static void main( String args[] ) {
+    public static void main(String args[]) {
         int dec = 161;
         String bin = Integer.toBinaryString(dec);
         System.out.println(bin);
@@ -16,7 +16,7 @@ public class tempCodeRunnerFile {
                 arrlist.add(i+1);
             }
         }
-        
+
         int x = arrlist.size();
         arrlist.add(0,x);
         System.out.println(arrlist);
