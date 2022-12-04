@@ -12,7 +12,7 @@ public class tempCodeRunnerFile {
 
         for (int i = 0; i < n; i++) {
             char a = bin.charAt(i);
-            if(a == '1'){
+            if(a == '1'){  
                 arrlist.add(i+1);
             }
         }
