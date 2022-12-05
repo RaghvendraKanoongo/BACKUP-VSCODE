@@ -9,7 +9,7 @@ public class tempCodeRunnerFile {
         System.out.println("here");
         System.out.println(13&4);
         ArrayList<Integer> arrlist = new ArrayList<Integer>();
-
+        
         for (int i = 0; i < n; i++) {
             char a = bin.charAt(i);
             if(a == '1'){  
