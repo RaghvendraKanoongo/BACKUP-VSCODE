@@ -22,6 +22,7 @@ public class Temp {
             return;
         }
 
+		if(oCount)
         pGenerator(str+"(", --oCount,cCount);
 
         pGenerator(str+")", oCount,--cCount);
