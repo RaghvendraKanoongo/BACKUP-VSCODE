@@ -7,7 +7,7 @@ public class Temp {
 
 	public static void main(String[] args) {
 		String str = new String();
-        pGenerator(str, 2,2, 4);
+        pGenerator(str, 1,1, 2);
 		System.out.println(list);
 
 	}
