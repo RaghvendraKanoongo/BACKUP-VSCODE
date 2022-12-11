@@ -23,11 +23,11 @@ public class Temp {
 
 		if(oCount!=0){
 			str = str+"("; 
-	    	pGenerator(str, oCount--, cCount);
+	    	pGenerator(str, --oCount, cCount);
 		}
-		if(cCount == 0){
+		if(cCount != 0){
 			str = str+")";
-			pGenerator(str, oCount, cCount--);
+			pGenerator(str, oCount, --cCount);
 		}
 
     }
