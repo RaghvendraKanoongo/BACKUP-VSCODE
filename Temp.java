@@ -20,7 +20,7 @@ public class Temp {
             return;
         }
 
-        pGenerator(str+"(", oCount--,cCount);
-        pGenerator(str+")", oCount,cCount--);
+        pGenerator(str+"(", --oCount,cCount);
+        pGenerator(str+")", oCount,--cCount);
     }
 }
