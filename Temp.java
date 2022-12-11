@@ -19,8 +19,8 @@ public class Temp {
         if(oCount == 0){
             return;
         }
-		
-        pGenerator(str+"(", oCount-1,cCount);
-        pGenerator(str+")", oCount,cCount-1);
+
+        pGenerator(str+"(", oCount--,cCount);
+        pGenerator(str+")", oCount,cCount--);
     }
 }
