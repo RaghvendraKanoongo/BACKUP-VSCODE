@@ -11,18 +11,24 @@ public class Temp {
 	}
 
     public static void pGenerator(String str, int oCount,int cCount){
+		
 		if(oCount == 0){
 			return;
 		}
 
-		else{
+		if(cCount == 0){
 			list.add(str);
 			return;
 		}
 
 		if(oCount!=0){
-			str += "("; 
+			str = str+"("; 
 	    	pGenerator(str, oCount--, cCount);
 		}
+		else {
+			str = str+")";
+			pGenerator(str, oCount, cCount--);
+		}
+
     }
 }
