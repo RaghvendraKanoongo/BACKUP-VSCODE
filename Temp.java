@@ -12,7 +12,7 @@ public class Temp {
     
     public static void pGenerator(String str, int oCount,int cCount){
 
-		if(cCount ==  && oCount == 0){
+		if(cCount == 0 && oCount == 0){
             list.add(str);
             return;
         }
