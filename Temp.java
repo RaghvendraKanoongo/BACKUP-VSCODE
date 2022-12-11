@@ -11,7 +11,7 @@ public class Temp {
 	}
 
     public static void pGenerator(String str, int oCount,int cCount){
-		
+
 		if(oCount == 0){
 			return;
 		}
@@ -25,7 +25,7 @@ public class Temp {
 			str = str+"("; 
 	    	pGenerator(str, oCount--, cCount);
 		}
-		else {
+		if(cCount == 0){
 			str = str+")";
 			pGenerator(str, oCount, cCount--);
 		}
