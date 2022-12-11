@@ -6,7 +6,7 @@ public class Temp {
 	static ArrayList<String> list = new ArrayList<String>();
 	public static void main(String[] args) {
 		String str = new String();
-        pGenerator(str, 3, 3);
+        pGenerator(str, 4, 4);
 		System.out.println(list);
 	}
     //[ (()), ((), ()), (), )(), )(, )), )]
