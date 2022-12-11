@@ -20,7 +20,7 @@ public class Temp {
 			// str = str+")";
 			pGenerator(str+")", oCount, cCount-1);
 		}
-		if(cCount == 0 && str.length() == 6){
+		if(cCount == 0 && str.length() == 6 && check(str)){
 			list.add(str);
 			return;
 		}
@@ -32,8 +32,14 @@ public class Temp {
 		int oCount = 0;
 		int cCount = 0;
 		for (int i = 0; i < 6; i++) {
-			
+			if(str.charAt(i) == '(')
+				oCount++;
+			if(str.charAt(i) == ')')
+			cCount++;
+			if(cCount>oCount)
+			return false;
 		}
+		return true;
 	}
 }
 
