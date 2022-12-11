@@ -28,5 +28,12 @@ public class Temp {
 			return;
 		}
     }
+	public static boolean check(String str){
+		int oCount = 0;
+		int cCount = 0;
+		for (int i = 0; i < 6; i++) {
+			
+		}
+	}
 }
 
