@@ -8,6 +8,7 @@ public class Temp {
 		String str = new String();
         pGenerator(str, 3,3);
 		System.out.println(list);
+
 	}
 
     public static void pGenerator(String str, int oCount,int cCount){
@@ -19,7 +20,7 @@ public class Temp {
 			// str = str+")";
 			pGenerator(str+")", oCount, cCount-1);
 		}
-		if(cCount == 0){
+		if(cCount == 0 && str.length() == 6){
 			list.add(str);
 			return;
 		}
