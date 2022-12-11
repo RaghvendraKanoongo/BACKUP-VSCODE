@@ -11,6 +11,9 @@ public class Temp {
 	}
 
     public static void pGenerator(String str, int oCount,int cCount){
+		if(str.contentEquals("(()())")){
+			System.out.println("");
+		}
 
 		if(oCount!=0){
 			str = str+"("; 
