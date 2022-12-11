@@ -21,14 +21,16 @@ public class Temp {
 			pGenerator(str, oCount, --cCount);
 		}
 
-		if(oCount == 0){
-			return;
-		}
-
 		if(cCount == 0){
 			list.add(str);
 			return;
 		}
+		
+		if(oCount == 0){
+			return;
+		}
+
+		
 
 
     }
