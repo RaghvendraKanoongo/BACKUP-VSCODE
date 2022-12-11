@@ -4,26 +4,28 @@ import java.util.List;
 public class Temp {
 
 	static ArrayList<String> list = new ArrayList<String>();
+
 	public static void main(String[] args) {
 		String str = new String();
-        pGenerator(str, 2,2);
+        pGenerator(str, 2,2, 4);
 		System.out.println(list);
 
 	}
 
-    public static void pGenerator(String str, int oCount,int cCount){
+    public static void pGenerator(String str, int oCount,int cCount, int n){
 		if(oCount > 0){
 			// str = str+"("; 
-	    	pGenerator(str+"(", oCount-1, cCount);
+	    	pGenerator(str+"(", oCount-1, cCount,n);
 		}
 		if(cCount > 0){
 			// str = str+")";
-			pGenerator(str+")", oCount, cCount-1);
+			pGenerator(str+")", oCount, cCount-1,n);
 		}
-		if(cCount == 0 && str.length() ==  && check(str)){
+		if(cCount == 0 && str.length() == n && check(str)){
 			list.add(str);
 			return;
 		}
+		
 		if(oCount == 0){
 			return;
 		}
