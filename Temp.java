@@ -6,7 +6,7 @@ public class Temp {
 	static ArrayList<String> list = new ArrayList<String>();
 	public static void main(String[] args) {
 		String str = new String();
-        pGenerator(str, 2, 2);
+        pGenerator(str, 3, 3);
 		System.out.println(list);
 	}
 
@@ -15,7 +15,7 @@ public class Temp {
 			System.out.println("");
 		}
 
-		if(oCount!=0){
+		if(oCount != 0){
 			str = str+"("; 
 	    	pGenerator(str, oCount-1, cCount);
 		}
