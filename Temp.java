@@ -20,6 +20,9 @@ public class Temp {
 			return;
 		}
 
-	    
+		if(oCount!=0){
+			str += "("; 
+	    	pGenerator(str, oCount--, cCount);
+		}
     }
 }
