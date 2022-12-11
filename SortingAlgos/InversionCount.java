@@ -1,7 +1,6 @@
 // package SortingAlgos;
 import java.util.Arrays;
 
-
 public class InversionCount {
     static int count = 0;
     static int x = 0;
@@ -70,7 +69,5 @@ public class InversionCount {
             
             // System.out.println(arr[j]);
         }
-
-        // System.out.println("count for "+ ++x +"time is: " +count );
     }
 }
