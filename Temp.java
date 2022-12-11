@@ -9,7 +9,7 @@ public class Temp {
         pGenerator(str, 2, 2);
 		System.out.println(list);
 	}
-    
+    //[(()), ((), ()), (), )(), )(, )), )]
     public static void pGenerator(String str, int oCount,int cCount){
 		
 		if(oCount != 0)
