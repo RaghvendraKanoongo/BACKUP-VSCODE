@@ -11,6 +11,15 @@ public class Temp {
 	}
 
     public static void pGenerator(String str, int oCount,int cCount){
+		if(oCount == 0){
+			return;
+		}
+
+		else{
+			list.add(str);
+			return;
+		}
+
 		
     }
 }
