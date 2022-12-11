@@ -11,6 +11,12 @@ public class Temp {
 	}
     
     public static void pGenerator(String str, int oCount,int cCount){
+		
+		if(oCount != 0)
+			pGenerator(str+"(", --oCount,cCount);
+		if(cCount != 0)
+			pGenerator(str+")", oCount,--cCount);
+
 
 		if(cCount == 0 && oCount == 0){
             list.add(str);
@@ -18,13 +24,8 @@ public class Temp {
         }
 
         if(oCount == 0){
-			System.out.println(str);
             return;
         }
 
-		if(oCount)
-        pGenerator(str+"(", --oCount,cCount);
-
-        pGenerator(str+")", oCount,--cCount);
     }
 }
