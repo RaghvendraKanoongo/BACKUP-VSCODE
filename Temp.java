@@ -18,6 +18,7 @@ public class Temp {
         }
 
         if(oCount == 0){
+			System.out.println("hi");
             return;
         }
 
