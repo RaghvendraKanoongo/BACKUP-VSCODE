@@ -7,7 +7,7 @@ public class Temp {
 
 	public static void main(String[] args) {
 		String str = new String();
-        pGenerator(str, 4,4, 8);
+        pGenerator(str, 2,2, 4);
 		System.out.println(list);
 
 	}
@@ -33,7 +33,7 @@ public class Temp {
 	public static boolean check(String str){
 		int oCount = 0;
 		int cCount = 0;
-		for (int i = 0; i < 6; i++) {
+		for (int i = 0; i < str.length(); i++) {
 			if(str.charAt(i) == '(')
 				oCount++;
 			if(str.charAt(i) == ')')
