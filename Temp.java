@@ -25,13 +25,9 @@ public class Temp {
 			list.add(str);
 			return;
 		}
-		
+
 		if(oCount == 0){
 			return;
 		}
-
-		
-
-
     }
 }
