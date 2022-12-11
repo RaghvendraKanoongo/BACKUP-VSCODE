@@ -20,12 +20,10 @@ public class Temp {
 			str = str+")";
 			pGenerator(str, oCount, --cCount);
 		}
-
 		if(cCount == 0){
 			list.add(str);
 			return;
 		}
-
 		if(oCount == 0){
 			return;
 		}
