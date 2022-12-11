@@ -14,18 +14,15 @@ public class Temp {
 
     public static void pGenerator(String str, int oCount,int cCount, int n){
 		if(oCount > 0){
-			// str = str+"("; 
 	    	pGenerator(str+"(", oCount-1, cCount,n);
 		}
 		if(cCount > 0){
-			// str = str+")";
 			pGenerator(str+")", oCount, cCount-1,n);
 		}
 		if(cCount == 0 && str.length() == n && check(str)){
 			list.add(str);
 			return;
 		}
-
 		if(oCount == 0){
 			return;
 		}
