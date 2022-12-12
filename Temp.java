@@ -34,7 +34,7 @@ public class Temp {
 			if(str.charAt(i) == '(')
 				oCount++;
 			if(str.charAt(i) == ')')
-			cCount++;
+				cCount++;
 			if(cCount>oCount)
 			return false;
 		}
