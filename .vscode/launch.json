@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NearestSmaller1",
+            "request": "launch",
+            "mainClass": "Stack.NearestSmaller1",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
             "name": "Launch Temp",
             "request": "launch",
             "mainClass": "Temp",
