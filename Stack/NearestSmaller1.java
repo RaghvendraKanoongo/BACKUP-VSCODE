@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 // package Stack;
 
 /**
@@ -10,7 +12,10 @@ public class NearestSmaller1 {
     }
 
     public static int[] solve(int[] arr){
-        return 
+
+        Stack <Integer> stack = new Stack<>();
+        
+        return new int[3];
     }
 
 }
