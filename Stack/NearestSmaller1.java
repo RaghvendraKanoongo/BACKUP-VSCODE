@@ -24,8 +24,8 @@ public class NearestSmaller1 {
                 arr[i] = -1;
             }
             else if(arr[i]>stack.peek()){
-                stack.push(arr[i]);
                 arr[i] = stack.peek();
+                stack.push(arr[i]);
             }
             else if(arr[i]<stack.peek()){
                 stack.pop();
