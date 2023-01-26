@@ -15,6 +15,13 @@ public class NearestSmaller1 {
 
         Stack <Integer> stack = new Stack<>();
         
+        for (int i = 0; i < arr.length; i++) {
+            if(stack.isEmpty()&&i == 0){
+                stack.push(arr[i]);
+                arr[i] = -1;
+            }
+            else if(arr[i] = )
+        }
         return new int[3];
     }
 
