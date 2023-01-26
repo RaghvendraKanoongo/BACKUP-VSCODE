@@ -31,6 +31,7 @@ public class NearestSmaller1 {
                 while(arr[i]<stack.peek()){
                     stack.pop();
                 }
+                if(arr[i]>stack)
             }
         }
         return arr;
