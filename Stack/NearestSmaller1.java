@@ -24,10 +24,11 @@ public class NearestSmaller1 {
                 arr[i] = -1;
             }
             else if(arr[i]>stack.peek()){
+                int temp = arr[i];
                 arr[i] = stack.peek();
-                stack.push(arr[i]);
+                stack.push(temp);
             }
-            else if(arr[i]<stack.peek()){
+            while(arr[i]<stack.peek()){
                 stack.pop();
             }
         }
