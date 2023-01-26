@@ -9,7 +9,7 @@ public class NearestSmaller1 {
 
     public static void main(String[] args) {
         System.out.println("babaji");
-        int[] arr = {4,6,10,11,7,8,3,5};
+        int[] arr = {5,2,8,10,12,6,1};
         System.out.println(Arrays.toString(solve(arr)));
     }
 
