@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Stack;
 
 // package Stack;
@@ -9,6 +10,8 @@ public class NearestSmaller1 {
 
     public static void main(String[] args) {
         System.out.println("babaji");
+        int[] arr = {4,6,10,11,7,8,3,5};
+        System.out.println(Arrays.toString(solve(arr)));
     }
 
     public static int[] solve(int[] arr){
@@ -24,9 +27,11 @@ public class NearestSmaller1 {
                 stack.push(arr[i]);
                 arr[i] = stack.peek();
             }
-            else
+            else if(arr[i]<stack.peek()){
+                stack.pop();
+            }
         }
-        return new int[3];
+        return arr;
     }
 
 }
