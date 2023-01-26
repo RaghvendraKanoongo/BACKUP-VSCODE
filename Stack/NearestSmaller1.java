@@ -1,4 +1,4 @@
-package Stack;
+// package Stack;
 import java.util.Arrays;
 import java.util.Stack;
 
@@ -31,7 +31,15 @@ public class NearestSmaller1 {
                 while(arr[i]<stack.peek()){
                     stack.pop();
                 }
-                if(arr[i]>stack)
+                if( stack.isEmpty()){
+                    stack.push(arr[i]);
+                    arr[i] = -1;
+                }
+                else if(arr[i]>stack.peek()){
+                    int temp = arr[i];
+                    arr[i] = stack.peek();
+                    stack.push(temp);
+                }
             }
         }
         return arr;
