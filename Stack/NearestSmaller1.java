@@ -2,9 +2,6 @@
 import java.util.Arrays;
 import java.util.Stack;
 
-/**
- * NearestSmaller1
- */
 public class NearestSmaller1 {
 
     public static void main(String[] args) {
@@ -44,5 +41,4 @@ public class NearestSmaller1 {
         }
         return arr;
     }
-
 }
