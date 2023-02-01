@@ -6,10 +6,14 @@ public class tempCodeRunnerFile {
             System.out.println("You are mature");
         else
             System.out.println("Still a kiddooo!!");
+            sayHi();
     }
     public static boolean isEligible (int age){
         if(age>=18)
             return true;
         return false;
+    }
+    public static void sayHi(String hi[]){
+        System.out.println("saying hi ");
     }
 }
