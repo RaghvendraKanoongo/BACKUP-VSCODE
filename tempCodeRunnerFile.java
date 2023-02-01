@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 public class tempCodeRunnerFile {
     public static void main(String args[]) {
+        System.out.println(args[0]);
         if(isEligible(2))
             System.out.println("You are mature");
         else
