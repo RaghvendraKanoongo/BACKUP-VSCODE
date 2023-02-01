@@ -3,7 +3,7 @@ public class tempCodeRunnerFile {
     public static void main(String args[]) {
 
         int a;
-        System.out.println(a);
+
         if(isEligible(2))
             System.out.println("You are mature");
         else
