@@ -1,8 +1,11 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 public class tempCodeRunnerFile {
+     int a;
     public static void main(String args[]) {
 
-        int a;
+       tempCodeRunnerFile tempCodeRunnerFile = new tempCodeRunnerFile();
+       System.out.println(tempCodeRunnerFile.a);
+
 
         if(isEligible(2))
             System.out.println("You are mature");
