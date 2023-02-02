@@ -20,5 +20,13 @@ public class tempCodeRunnerFile {
     }
     public static void sayHi(String hi[]){
         System.out.println("saying hi ");
+        System.out.println()
+    }
+
+    static int test(){
+
+        try{
+            
+        }
     }
 }
