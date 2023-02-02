@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Constructor",
+            "request": "launch",
+            "mainClass": "AAAAA.Constructor",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
+            "name": "Launch A1",
+            "request": "launch",
+            "mainClass": "AAAAA.A1",
+            "projectName": "vs_code_d5f411a"
+        },
+        {
+            "type": "java",
             "name": "Launch NearestSmaller1",
             "request": "launch",
             "mainClass": "Stack.NearestSmaller1",
