@@ -11,6 +11,7 @@ public class Testing {
         arr.add("i");
         arr.add(true);
         arr.add(33);
+        a
         System.out.println(arr);
 
     }
