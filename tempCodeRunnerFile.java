@@ -27,8 +27,9 @@ public class tempCodeRunnerFile {
     static int test(){
 
         try{
-            System.out.println(1/0);
+
             System.out.println("try");
+
             return 1;
         }
         catch(Exception e){
