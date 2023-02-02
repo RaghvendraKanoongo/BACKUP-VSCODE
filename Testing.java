@@ -1,10 +1,12 @@
 /**
  * Testing
  */
+import java.util.*;
 public class Testing {
 
     public static void main(String[] args) {
-        Arraylist <Object> arr = new Arraylist<>();
-        arr.
+        Arraylist <Integer> arr = new Arraylist<>();
+        arr.add(3);
+
     }
 }
