@@ -2,11 +2,16 @@
  * Testing
  */
 import java.util.*;
+
+import javax.print.DocFlavor.STRING;
 public class Testing {
 
     public static void main(String[] args) {
-        Arraylist <Integer> arr = new Arraylist<>();
-        arr.add(3);
+        ArrayList <Object> arr = new ArrayList<>();
+        arr.add("i");
+        arr.add(true);
+        arr.add(33);
+        System.out.println(arr);
 
     }
 }
