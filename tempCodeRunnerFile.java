@@ -1,4 +1,4 @@
-package tempCodeRunnerFile;
+// package tempCodeRunnerFile;
 // import java.util.ArrayList;
 public class tempCodeRunnerFile {
      int a;
@@ -28,12 +28,15 @@ public class tempCodeRunnerFile {
 
         try{
             System.out.println(1/0);
+            System.out.println("try");
             return 1;
         }
         catch(Exception e){
+            System.out.println("catch");
             return 2;
         }
         finally{
+            System.out.println("finally");
             return 3;
         }
     }
