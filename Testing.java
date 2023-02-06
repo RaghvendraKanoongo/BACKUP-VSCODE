@@ -13,7 +13,6 @@ public class Testing {
         arr.add(true);
         arr.add(33);
         arr.add("hi");
-        arr.remove();
         System.out.println(arr);
 
     }
