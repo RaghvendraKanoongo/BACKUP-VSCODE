@@ -25,7 +25,7 @@ public class Test {
         list.add(2);
         list.add(3);
         list.add(4);
-        list.remove();
+        list.remove(2);
         System.out.println(list);
 
     }
