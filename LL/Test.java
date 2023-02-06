@@ -1,6 +1,8 @@
 // import java.util.LinkedList;
 
-package LL;
+// package LL;
+
+import java.util.LinkedList;
 
 class ListNode {
         int val;
@@ -17,7 +19,14 @@ class ListNode {
 public class Test {
     public static void main(String[] args) {
         System.out.println("hola");
-        name();
+        // name();
+        LinkedList <Integer> list = new LinkedList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.remove();
+        System.out.println(list);
 
     }
 
