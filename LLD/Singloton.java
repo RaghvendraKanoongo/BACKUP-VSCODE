@@ -12,13 +12,9 @@ public class Singloton {
 }
 
 class Test {
-    static Test instance = new Test();
+   static Test instance = null;
 
-    static {
-        System.out.println("Test class loaded.");
-    }
-
-    public Test() {
-        System.out.println("Test instance created.");
+    static Test getInstance(){
+        if(instance == null)
     }
 }
